@@ -37,9 +37,14 @@ Drugi korak:
 Inštaliramo še vse potrebne programe za naš operacijski sistem in python, ki smo jih naložili z instalacijo cookiecutter-django in so v direktoriju "utility"
 ::
 	cd utility
-	./install_os_dependenceses.hs
-	./instali_python_dependenceses.hs
-pri zadnji komandi nas opozori naj si le te pridobimo iz naslova wwwget.... 
+	sudo ./install_os_dependencies.sh install
+	sudo ./install_python_dependencies.sh install
+
+Pri zadnji komandi nas opozori naj si le te pridobimo iz naslova
+::
+
+	wget https://bootstrap.pypa.io/get-pip.py --output-document=get-pip.py; chmod +x get-pip.py; sudo -H python3 get-pip.py
+ 
 
 Sedaj , ko imamo inštalirano vso potrebno programsko opremo za os in python zaženemo še potrebno programsko opremo za django za local development okolje 
 ::
