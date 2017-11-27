@@ -22,25 +22,24 @@ Virtualno okolje z mojim "local" za development
 COOKIECUTTER S PREDNASTAVLJENIM DJANGOM
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
-Instalacija na novo :
+Prvi korak za prvo instalacijo :
 Na osnovnem direktoriju /home/pavlovicr naložimo cookiecutter, odpremo virtualno okolje in inštaliramo nov projekt z django aplikacijo
-Prvi korak
 ::
 	source local/bin/activate
 	pip install --upgrade cookiecutter
 	cookiecutter https://github.com/pydanny/cookiecutter-django 
-Drugi korak
+Prvi korak, za kopijo aplikacije, ki jo imamo na gitHubu. To uporabimo vedno ko je projekt živ sicer bomo imeli težave z različnimi inštaliranimi aplikacijami
+::
+
+	git clone https://github.com/pavlovicr/bcs
+
+Drugi korak:
 Inštaliramo še vse potrebne programe za naš operacijski sistem in python, ki smo jih naložili z instalacijo cookiecutter-django in so v direktoriju "utility"
 ::
 	cd utility
 	./install_os_dependenceses.hs
 	./instali_python_dependenceses.hs
 pri zadnji komandi nas opozori naj si le te pridobimo iz naslova wwwget.... 
-
-Instalacija obstoječega s kloniranjem iz github :
-Vse kot zgoraj le, da zbrišemo projekt, ki smo ga ustvarili s cookiecutterjem (bcs) in ga kloniramo z githuba
-::
-	git clone https://github.com/pavlovicr/bcs
 
 Sedaj , ko imamo inštalirano vso potrebno programsko opremo za os in python zaženemo še potrebno programsko opremo za django za local development okolje 
 ::
