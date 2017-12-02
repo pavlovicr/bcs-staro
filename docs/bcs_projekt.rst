@@ -4,31 +4,61 @@ BCS
 Standardizirani popisi del(Building Construction Specifications - Specifikacije del pri gradnjah)
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
+Uvod 
 
-Cilj projekta:
------------------
-Izdelati sistem priprave, urejanja in vzdrževanja standardiziranih popisov del s spletno aplikacijo 
+V 28. členu " pravilnika o projektni dokumentaciji " piše "...., se za celovit opis objekta v projektu za izvedbo izdela zbirno tehnično poročilo, ki vsebuje tudi skupen popis materiala in opreme z rekapitulacijo stroškov izgradnje, pri čemer je za njegovo izdelavo zadolžen koordinator iz 5. člena tega pravilnika.)
+
+Zahteve navedene v pravilniku , se le deloma prekrivajo z vsebino POPISA DEL, ki v praksi pomeni nepogrešljiv dokument pri gradnjah. V popisih del so opisane sestave gradbenih konstrukcij in njihovih delov , tehnologija gradnje, uporabljeni materiali in na njih vezane zahteve iz zakona o gradbenih proizvodih, pravila za zagotavljanje kvaliete, obračun in merjenje, varnostne zahteve itd..
+Popisi del so pri gradnjah po sistemu " na enoto mere " ključni pri definiranju predmeta pogodbe in izračunu končne cene pogodbenih del.
+
+Kljub temu, da so popisi del pomemben del gradbene dokumentacije, v Sloveniji ni enotne metodologija za njihovo izdelavo prav tako ni javno dostopnih zbirk popisov del, ki bi nadomestili zastarele standardizirane popise del (GIPPOS, Fabrizzio, ..). Ostali so le redki in to samo za določene zvrsti del.(Skupnost za ceste).
+
+Nelogično je, da je zakonodajalec preciziral način vodenja knjige obračunskih izmer v "pravilniku o vsebini in načinu vodenja dnevnika o izvajanju del ter o načinu označitve gradbišča ", pravil, kako se izvedena dela merijo in ostala določila povezana z obračunom del pa sploh ne omenja.
+
+Zakaj danes ni interesa za pripravo novih ali posodobitev obstoječih standardiziranih popisov del, ki bi bili javno dostopni in bi jih vsi udeleženci pri graditvi upoštevali kot izhodiščne ?
+
+Vprašanje ponuja izziv : Izdelati spletno aplikacijo, ki pokriva sistem izdelave, urejanja in vzdrževanja "standardiziranih popisov del"
+po principu "open source"
 
 
-Projektna naloga
--------------------
-GIPOS
-knjiga 2003
-....nemsko
-Fabrizzio
 
 
-Aktivnosti
--------------
 
-* Izdelava dokumentacije 
-* Razvoj aplikacije
-* Produkcija
-* Urejanje
-* Vzdrževanje 
+	* predgovor
+	* Cilj projekta:
+	-----------------
+	Izdelati sistem priprave, urejanja in vzdrževanja standardiziranih popisov del s spletno aplikacijo 
 
-1. Dokumentacija
+	*Izdelati spletno aplikacijo za pripravo, urejanje in vzdrževanje standardiziranih popisov del, splošnih in posebnih določil ter popisov del za objekte*
+
+.. _aktivnosti in faznost:
+	*Aktivnosti in faznost
+	---------------------
+		1. faza
+			* Izdelava dokumentacije  
+			* Razvoj aplikacije na vzorčnem primeru
+			* Produkcija
+		2. faza
+			* Urejanje specifikacij, dokončanje vzorčnega primera - stanovanjska gradnja do III.FAZE
+		 in vzdrževanje sistema
+		 
+
+Ta dokument pokriva 1. fazo.
+
+1. Dokumentacija:
 ---------------- 
+
+	* Vsebine
+ 	* Orodja, procesi
+ 
+
+
+Vsebina
+_______
+
+
+   * izhodišča
+   * pomen izrazov
    * opis
    * vzorčni primer
    * shema
@@ -37,55 +67,14 @@ Aktivnosti
    * Priprava sheme urejanja standardiziranih popisov
    * Rriprava sheme vzdrževanja standardiziranih popisov
 
+Izhodišča
+---------
+GIPOS,knjiga 2003,nemsko,Fabrizzio
+vsebine po različnih področjih , stan gradnja, cestgradnja, industrijski objekti 
 
-
-
-
-
-
-*Izdelati spletno aplikacijo za pripravo, urejanje in vzdrževanje standardiziranih popisov del, splošnih in posebnih določil ter popisov del za objekte*
-**Vsebina** 
-
-``Priprava standardiziranih| popisov del``\:sub:``vaja``\
-	#. Priprava splošnih in posebnih določil
-
-#. Projektna naloga
-___________________
-
-
-| naša četica koraka
-| strumno in veselo
-| drug za drugim v ravni vrsti
-| zdaj gremo na delo
-
-To je normalen stavek do sem::
-
-	od tu naprej je koda
-
-in spet normalen stavek	
-
-
-
-
-
-Vsebinsko je projekt razdeljen na tri dele.
-
-* specifikacije del
-* splošna in posebna določila
-* popisi del
-
-.. note::
-   Sklop " specifikacije posameznih del " predstavlja knjižnico podrobnih opisov tehnologije izvedbe posameznih del pri gradnjah objektov, , pogojev vezanih na izvajanja posameznih del in uporabljene materiale.
-.. note:: V sklopu "splošna in posebna določila " so opredeljene skupine (VRSTA DEL, SKUPINA del po katerih združujemo posamezna dela in določila vezana na  način obračuna, merjenja , zahteve glede kvalitete skupin del, vrste del in posameznih specifikacij
-.. rubric:: Sklop "popisi del " je vezan na konkreten primer gradnje objekta, vrsto gradnje, skupino del ali....
-
-
-
-Specifikacije del 
-----------------------------
 
 Uporabljeni izrazi:
-
+-------------------
 .. glossary::
 
 	postavka
@@ -96,7 +85,7 @@ Uporabljeni izrazi:
 		opisuje  predmet posameznega dela in določa enote mere. Primer: "Izkop jarka"  
 	specifikacija
 		dopolnjuje opis postavke glede na možne tehnologije izvedbe, materiale, opremo, delovne pogoje ipd.(kriterij specifikacije). Primer: " v terenu III.ktg "
-=======
+
 		opis predmeta posameznega dela z določitvijo enote mere. Primer: "Izkop jarka  em m3"  
 	specifikacija
 		dopolnitev opisa postavke glede na možno tehnologijo izvedbe, izbiro materiala, opreme, delovne pogoje ipd.(kriterij specifikacije). Primer: " v terenu III.ktg "
@@ -117,28 +106,89 @@ Uporabljeni izrazi:
 	dela
 			osnovna skupina sorodnih posameznih postavk. Primer: "Izkopi"     
 
+Vsebina :
+---------
 
+Dokumentacija je vsebinsko razdeljena na tri dele.
 
-.. warning:: mogoče pa dela ne spadajo v to poglavje ali pa celo vrsta del(zemeljska dela , zaradi filtra)
+* specifikacije del
+* splošna in posebna določila
+* popisi del
 
-
-
-Struktura in relacije:
-
-
-.. warning:: Postavke specificirane z različnimi možnimi scenariji in zbrane po skupinah del sestavljajo knjižnico standardiziranih popisov del.
-
-
-
-
-Kako bo zgledala knjižnica :
-Knjižnica bo imela zgrajene popisne postavke ?   NE
-Knjižnica bo imela sezname  glavnih specifikacij (jedro postavke) in sezname dodatnih specifikacij,ki ji pripadajo in s katerimi je mogoče graditi popisne postavke ? DA
-Na osnovi katerih kriterijev določamo dodatne specifikacije. Na osnovi kriterijev tehnoloških značilnosti, materiala , pogojev dela
+.. note::
+   Sklop " specifikacije posameznih del " predstavlja knjižnico podrobnih opisov tehnologije izvedbe posameznih del pri gradnjah objektov, , pogojev vezanih na izvajanja posameznih del in uporabljene materiale.
+.. note:: V sklopu "splošna in posebna določila " so opredeljene skupine (VRSTA DEL, SKUPINA del po katerih združujemo posamezna dela in določila vezana na  način obračuna, merjenja , zahteve glede kvalitete skupin del, vrste del in posameznih specifikacij
+.. rubric:: Sklop "popisi del " je vezan na konkreten primer gradnje objekta, vrsto gradnje, skupino del ali....
 
 
 
- Postavke za standardizirane popise se gradi za vsak primer zase ? DA
+Specifikacije del 
+----------------------------
+
+
+Knjižnica standardiziranih popisov je zbirka elementov generiranih popisnih postavk za izvajanje del, ki se pojavljajo pri gradnjah. Knjižnica vsebuje sezname elementov :
+ postavk ,
+specifikacij ,
+kriterijev specifikacij ,
+iz katerih so popisne postavke sestavljene in sezname
+del  
+in vrste del, 
+v okviru katerih se popisne postavke združujejo. 
+
+Vsaki postavki pripada več specifikacij , ki podrobneje opisujejo predmet in pogoje dela postavke. 
+
+Popisne postavke sestavljajo postavke s specifikacijami, ki jim pripadajo in podrobneje opisujejo postavko. Specifikacije so organizirane v  okviru postavk in del , ki jim pripadajo ter po kriteriju, ki opredeljuje namen specifikacije.   
+Popisne postavke so organizirane v okviru del in vrste del , ki jim pripadajo.
+
+Popisne postavke niso organizirane v seznamih temveč jih sestavljamo modularno. 
+Knjižnica  pri gradnja , ki nastopajo pri gradnjah. Postavka je jedro popisne postavke in sama po sebi opredeljuje osnovni predmet dela in enoto mere.
+Specifikacije podrobneje definirajo postavko (prednmet dela)in pogoje izvedbe. Specifikacije so organizirane v okviru posameznih skupin , ki jih imenujemo kriterij specifikacije.
+Postavke s specifikacijami tvorijo popisne postavke, ki jih sestavljamo modularno.
+
+Splošna in posebna določila
+----------------------------
+
+Določila niso nič drugega kot specifikacije specifikacij, postavk, del in vrst del ter določila, ki veljajo za gradnje nasplošno.Za razliko od tehnično tehnoloških specifikacij ta določajo pravila glede uporabe zakonodaje, obračunov, varnosti, kakovosti ipd.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+	``Priprava standardiziranih| popisov del``\:sub:``vaja``\
+	#. Priprava splošnih in posebnih določil
+
+#. Projektna naloga
+___________________
+
+
+| naša četica koraka
+| strumno in veselo
+| drug za drugim v ravni vrsti
+| zdaj gremo na delo
+
+To je normalen stavek do sem::
+
+	od tu naprej je koda
+
+in spet normalen stavek	
+
+.. warning:: ratatata)
+
+
 
 
 
