@@ -5,6 +5,7 @@ Standardizirani popisi del(Building Construction Specifications - Specifikacije 
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
 Uvod 
+----
 
 V 28. členu " pravilnika o projektni dokumentaciji " piše "...., se za celovit opis objekta v projektu za izvedbo izdela zbirno tehnično poročilo, ki vsebuje tudi skupen popis materiala in opreme z rekapitulacijo stroškov izgradnje, pri čemer je za njegovo izdelavo zadolžen koordinator iz 5. člena tega pravilnika.)
 
@@ -15,38 +16,28 @@ Kljub temu, da so popisi del pomemben del gradbene dokumentacije, v Sloveniji ni
 
 Nelogično je, da je zakonodajalec preciziral način vodenja knjige obračunskih izmer v "pravilniku o vsebini in načinu vodenja dnevnika o izvajanju del ter o načinu označitve gradbišča ", pravil, kako se izvedena dela merijo in ostala določila povezana z obračunom del pa sploh ne omenja.
 
-Zakaj danes ni interesa za pripravo novih ali posodobitev obstoječih standardiziranih popisov del, ki bi bili javno dostopni in bi jih vsi udeleženci pri graditvi upoštevali kot izhodiščne ?
+Zakaj danes ni interesa za pripravo novih ali posodobitev obstoječih standardiziranih popisov del, ki bi bili javno dostopni in bi jih vsi udeleženci pri graditvi upoštevali ko t izhodiščne ?
 
-Vprašanje ponuja izziv : Izdelati spletno aplikacijo, ki pokriva sistem izdelave, urejanja in vzdrževanja "standardiziranih popisov del"
-po principu "open source"
+Vprašanje ponuja izziv.
 
+Cilj projekta
+-------------
+Izdelati sistem priprave, urejanja in vzdrževanja standardiziranih popisov del prek spleta 
 
+Aktivnosti in faznost
+---------------------
 
-
-
-	* predgovor
-	* Cilj projekta:
-	-----------------
-	Izdelati sistem priprave, urejanja in vzdrževanja standardiziranih popisov del s spletno aplikacijo 
-
-	*Izdelati spletno aplikacijo za pripravo, urejanje in vzdrževanje standardiziranih popisov del, splošnih in posebnih določil ter popisov del za objekte*
-
-.. _aktivnosti in faznost:
-	*Aktivnosti in faznost
-	---------------------
-		1. faza
-			* Izdelava dokumentacije  
-			* Razvoj aplikacije na vzorčnem primeru
-			* Produkcija
-		2. faza
-			* Urejanje specifikacij, dokončanje vzorčnega primera - stanovanjska gradnja do III.FAZE
-		 in vzdrževanje sistema
+	1. faza
+		* Izdelava dokumentacije  vsebinskega dela in dela za razvoj aplikacije  
+		* Razvoj aplikacije 
+	2. faza
+		* Produkcija
+		* Urejanje specifikacij na vzorčnem primeru stanovanjske gradnje do III.FAZE
+	3.  * Izdelava dokumentacije za upravljanje sistema
 		 
 
-Ta dokument pokriva 1. fazo.
-
-1. Dokumentacija:
----------------- 
+1. Dokumentacija
+################ 
 
 	* Vsebine
  	* Orodja, procesi
