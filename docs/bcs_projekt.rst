@@ -11,14 +11,10 @@ V 28. členu " pravilnika o projektni dokumentaciji " piše "...., se za celovit
 
 Zahteve navedene v pravilniku , se le deloma prekrivajo z vsebino POPISA DEL, ki v praksi pomeni nepogrešljiv dokument pri gradnjah. V popisih del so opisane sestave gradbenih konstrukcij in njihovih delov , tehnologija gradnje, uporabljeni materiali in na njih vezane zahteve iz zakona o gradbenih proizvodih, pravila za zagotavljanje kvaliete, obračun in merjenje, varnostne zahteve itd..
 Popisi del so pri gradnjah po sistemu " na enoto mere " ključni pri definiranju predmeta pogodbe in izračunu končne cene pogodbenih del.
+Nelogično je, da je zakonodajalec v "pravilniku o vsebini in načinu vodenja dnevnika o izvajanju del ter o načinu označitve gradbišča " preciziral način vodenja knjige obračunskih izmer in predpisal obrazec, vsebine pa popolnoma prezrl.
 
 Kljub temu, da so popisi del pomemben del gradbene dokumentacije, v Sloveniji ni enotne metodologija za njihovo izdelavo prav tako ni javno dostopnih zbirk popisov del, ki bi nadomestili zastarele standardizirane popise del (GIPPOS, Fabrizzio, ..). Ostali so le redki in to samo za določene zvrsti del.(Skupnost za ceste).
-
-Nelogično je, da je zakonodajalec preciziral način vodenja knjige obračunskih izmer v "pravilniku o vsebini in načinu vodenja dnevnika o izvajanju del ter o načinu označitve gradbišča ", pravil, kako se izvedena dela merijo in ostala določila povezana z obračunom del pa sploh ne omenja.
-
-Zakaj danes ni interesa za pripravo novih ali posodobitev obstoječih standardiziranih popisov del, ki bi bili javno dostopni in bi jih vsi udeleženci pri graditvi upoštevali ko t izhodiščne ?
-
-Vprašanje ponuja izziv.
+Zakaj ? Vprašanja ponujajo izziv.
 
 Cilj projekta
 -------------
@@ -33,9 +29,9 @@ Aktivnosti in faznost
 	2. faza
 		* Produkcija
 		* Urejanje specifikacij na vzorčnem primeru stanovanjske gradnje do III.FAZE
-	3.  * Izdelava dokumentacije za upravljanje sistema
+	3. faza 
+		* Izdelava dokumentacije za upravljanje sistema
 		 
-
 1. Dokumentacija
 ################ 
 
