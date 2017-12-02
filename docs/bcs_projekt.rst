@@ -33,7 +33,7 @@ Aktivnosti in faznost
 		* Izdelava dokumentacije za upravljanje sistema
 		 
 1. Dokumentacija
-################ 
+---------------- 
 
 	* Vsebine
  	* Orodja, procesi
