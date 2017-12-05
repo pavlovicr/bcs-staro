@@ -6,15 +6,13 @@ Standardizirani popisi del(Building Construction Specifications - Specifikacije 
 
 Uvod 
 ----
-
 V 28. členu pravilnika o projektni dokumentaciji piše "...., se za celovit opis objekta v projektu za izvedbo izdela zbirno tehnično poročilo, ki vsebuje tudi skupen popis materiala in opreme z rekapitulacijo stroškov izgradnje, pri čemer je za njegovo izdelavo zadolžen koordinator iz 5. člena tega pravilnika.)
 
-Zahteve navedene v pravilniku , se le deloma prekrivajo z vsebino POPISOV DEL, ki v praksi pomenijo pri gradnjah nepogrešljiv dokument. V popisih del so opisane sestave gradbenih konstrukcij in njihovih delov , tehnologije izvedbe, uporabljeni materiali in na njih vezane zahteve iz zakona o gradbenih proizvodih, pravila za zagotavljanje kvaliete, pravila pri obračunu in merjenju količin, varnostne zahteve itd..
+Zahteve navedene v pravilniku  se le deloma prekrivajo z vsebino POPISOV DEL, ki v praksi pomenijo pri gradnjah nepogrešljiv dokument. V popisih del so opisane sestave gradbenih konstrukcij in njihovih delov , tehnologije izvedbe, uporabljeni materiali in na njih vezane zahteve iz zakona o gradbenih proizvodih, pravila za zagotavljanje kvaliete, pravila pri obračunu in merjenju količin, varnostne zahteve itd..
 Popisi del so pri gradnjah po sistemu " na enoto mere " ključni pri definiranju predmeta pogodbe in izračunu končne cene pogodbenih del.
-Nelogično je, da je zakonodajalec v "pravilniku o vsebini in načinu vodenja dnevnika o izvajanju del ter o načinu označitve gradbišča " preciziral način vodenja knjige obračunskih izmer in predpisal obrazec, vsebine pa popolnoma prezrl.
 
 Kljub temu, da so popisi del pomemben del gradbene dokumentacije, Slovenija ne premore enotne metodologije za njihovo izdelavo prav tako ni javno dostopnih zbirk popisov del, ki bi nadomestili zastarele standardizirane popise del (GIPPOS, Fabrizzio, ..). Ostali so le redki in to samo za določene zvrsti del.(Skupnost za ceste).
-Zakaj ? Vprašanja ponujajo izziv.
+Zanimivo, da se je zakonodajalec zelo potrudil pri oblikovanju knjige obračunskih izmer v "pravilniku o vsebini in načinu vodenja dnevnika o izvajanju del ter o načinu označitve gradbišča ", vsebine pa kot da bi se ustrašil.
 
 Cilj projekta
 -------------
@@ -22,7 +20,6 @@ Izdelati sodoben sistem priprave, urejanja in vzdrževanja standardiziranih popi
 
 Aktivnosti in faznost
 ---------------------
-
 	1. faza
 		* Izdelava dokumentacije,  vsebinski del in del za razvoj aplikacije  
 		* Razvoj aplikacije 
@@ -36,6 +33,11 @@ Aktivnosti in faznost
 ---------------- 
 
 	1.1 Izhodišča
+
+
+
+
+
 	1.2 Pomen izrazov
 	.. glossary::
 
