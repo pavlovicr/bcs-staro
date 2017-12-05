@@ -20,24 +20,22 @@ Izdelati sodoben sistem priprave, urejanja in vzdrževanja standardiziranih popi
 
 Aktivnosti in faznost
 ---------------------
-	1. faza
-		* Izdelava dokumentacije,  vsebinski del in del za razvoj aplikacije  
-		* Razvoj aplikacije 
-	2. faza
-		* Produkcija
-		* Urejanje specifikacij na vzorčnem primeru stanovanjske gradnje do III.FAZE
-	3. faza 
-		* Izdelava dokumentacije za upravljanje sistema
+1. faza
+	* Izdelava dokumentacije,  vsebinski del in del za razvoj aplikacije  
+	* Razvoj aplikacije 
+2. faza
+	* Produkcija
+	* Urejanje specifikacij na vzorčnem primeru stanovanjske gradnje do III.FAZE
+3. faza 
+	* Izdelava dokumentacije za upravljanje sistema
 		 
 1. Dokumentacija 
 ---------------- 
 
 1.1 Izhodišča
--------------	
+	
 1.2 Pomen izrazov
------------------
 .. glossary::
-
 	standardizirani popisi del
 		urejeni seznami podrobno opisanih posameznih del, ki nastopajo pri gradnjah
 	postavka
