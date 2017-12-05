@@ -35,6 +35,7 @@ Aktivnosti in faznost
 1.1 Izhodišča
 	
 1.2 Pomen izrazov
+
 .. glossary::
 
 	standardizirani popisi del
