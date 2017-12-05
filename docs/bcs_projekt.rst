@@ -7,24 +7,24 @@ Standardizirani popisi del(Building Construction Specifications - Specifikacije 
 Uvod 
 ----
 
-V 28. členu " pravilnika o projektni dokumentaciji " piše "...., se za celovit opis objekta v projektu za izvedbo izdela zbirno tehnično poročilo, ki vsebuje tudi skupen popis materiala in opreme z rekapitulacijo stroškov izgradnje, pri čemer je za njegovo izdelavo zadolžen koordinator iz 5. člena tega pravilnika.)
+V 28. členu pravilnika o projektni dokumentaciji piše "...., se za celovit opis objekta v projektu za izvedbo izdela zbirno tehnično poročilo, ki vsebuje tudi skupen popis materiala in opreme z rekapitulacijo stroškov izgradnje, pri čemer je za njegovo izdelavo zadolžen koordinator iz 5. člena tega pravilnika.)
 
-Zahteve navedene v pravilniku , se le deloma prekrivajo z vsebino POPISA DEL, ki v praksi pomeni nepogrešljiv dokument pri gradnjah. V popisih del so opisane sestave gradbenih konstrukcij in njihovih delov , tehnologija gradnje, uporabljeni materiali in na njih vezane zahteve iz zakona o gradbenih proizvodih, pravila za zagotavljanje kvaliete, obračun in merjenje, varnostne zahteve itd..
+Zahteve navedene v pravilniku , se le deloma prekrivajo z vsebino POPISOV DEL, ki v praksi pomenijo pri gradnjah nepogrešljiv dokument. V popisih del so opisane sestave gradbenih konstrukcij in njihovih delov , tehnologije izvedbe, uporabljeni materiali in na njih vezane zahteve iz zakona o gradbenih proizvodih, pravila za zagotavljanje kvaliete, pravila pri obračunu in merjenju količin, varnostne zahteve itd..
 Popisi del so pri gradnjah po sistemu " na enoto mere " ključni pri definiranju predmeta pogodbe in izračunu končne cene pogodbenih del.
 Nelogično je, da je zakonodajalec v "pravilniku o vsebini in načinu vodenja dnevnika o izvajanju del ter o načinu označitve gradbišča " preciziral način vodenja knjige obračunskih izmer in predpisal obrazec, vsebine pa popolnoma prezrl.
 
-Kljub temu, da so popisi del pomemben del gradbene dokumentacije, v Sloveniji ni enotne metodologija za njihovo izdelavo prav tako ni javno dostopnih zbirk popisov del, ki bi nadomestili zastarele standardizirane popise del (GIPPOS, Fabrizzio, ..). Ostali so le redki in to samo za določene zvrsti del.(Skupnost za ceste).
+Kljub temu, da so popisi del pomemben del gradbene dokumentacije, Slovenija ne premore enotne metodologije za njihovo izdelavo prav tako ni javno dostopnih zbirk popisov del, ki bi nadomestili zastarele standardizirane popise del (GIPPOS, Fabrizzio, ..). Ostali so le redki in to samo za določene zvrsti del.(Skupnost za ceste).
 Zakaj ? Vprašanja ponujajo izziv.
 
 Cilj projekta
 -------------
-Izdelati sistem priprave, urejanja in vzdrževanja standardiziranih popisov del prek spleta 
+Izdelati sodoben sistem priprave, urejanja in vzdrževanja standardiziranih popisov del , ki bo javno dostopen prek spleta 
 
 Aktivnosti in faznost
 ---------------------
 
 	1. faza
-		* Izdelava dokumentacije  vsebinskega dela in dela za razvoj aplikacije  
+		* Izdelava dokumentacije,  vsebinski del in del za razvoj aplikacije  
 		* Razvoj aplikacije 
 	2. faza
 		* Produkcija
@@ -32,27 +32,34 @@ Aktivnosti in faznost
 	3. faza 
 		* Izdelava dokumentacije za upravljanje sistema
 		 
-1. Dokumentacija
+1. Dokumentacija 
 ---------------- 
 
-	* Vsebine
- 	* Orodja, procesi
- 
+	1.1 Izhodišča
+	1.2 Pomen izrazov
+	.. glossary::
+
+	standardizirani popisi del
+		urejeni seznami podrobno opisanih posameznih del, ki nastopajo pri gradnjah
+	postavka
+		osnovni opis posameznega dela
+	specifikacija
+		dodatni opis postavk
+	kriterij specifikacije
+		kriterij po katerem določamo dopolnilno specifikacijodoloča kriterij po katerem se specifikacije oblikujejo  po posameznih postavkah in delih. Primer: "klasifikacija zemljišča po kategorijah od I do VII"  	
+	določila
+		opis zahtev in pravil vezanih na izvedbo postavke
+	kriterij določila
 
 
-Vsebina
-_______
 
+	dela
+			osnovna skupina sorodnih posameznih postavk. Primer: "Izkopi"     
 
-   * izhodišča
-   * pomen izrazov
-   * opis
-   * vzorčni primer
-   * shema
-   * tabele medsebojnih relacij
-   * Izdelava spletne aplikacije
-   * Priprava sheme urejanja standardiziranih popisov
-   * Rriprava sheme vzdrževanja standardiziranih popisov
+	1.3 Opis elementov in medsebojnih odvisnosti
+	1.4 Shema
+	1.5 Vzorčni primer
+	1.6 Izhodišča za spletno aplikacijo
 
 Izhodišča
 ---------
@@ -64,34 +71,7 @@ Uporabljeni izrazi:
 -------------------
 .. glossary::
 
-	postavka
-<<<<<<< Updated upstream
-		je popisna postavka sestavljena iz osnovne specifikacije in dopolnilne ??????? to je veliko vprašanje
-
-	postavka
-		opisuje  predmet posameznega dela in določa enote mere. Primer: "Izkop jarka"  
-	specifikacija
-		dopolnjuje opis postavke glede na možne tehnologije izvedbe, materiale, opremo, delovne pogoje ipd.(kriterij specifikacije). Primer: " v terenu III.ktg "
-
-		opis predmeta posameznega dela z določitvijo enote mere. Primer: "Izkop jarka  em m3"  
-	specifikacija
-		dopolnitev opisa postavke glede na možno tehnologijo izvedbe, izbiro materiala, opreme, delovne pogoje ipd.(kriterij specifikacije). Primer: " v terenu III.ktg "
->>>>>>> Stashed changes
-	kriterij specifikacije
-		določa kriterij po katerem se specifikacije oblikujejo  po posameznih postavkah in delih. Primer: "klasifikacija zemljišča po kategorijah od I do VII"  	
-	dela
-			seznami postavk in kriterijev specifikacij zbranih po vrsti dela. Primer: "Izkopi"     
- 
-	standardizirani popisi del
-		po vrsti del urejen seznam posameznih del, ki nastopajo pri gradnjah,  v vseh možnih variantah.
-	postavka
-		osnovna specifikacija posameznega dela
-	specifikacija
-		dodatna specifikacija posameznega delatavkejuje opis postavke glede na možne tehnologije izvedbe, materiale, opremo, delovne pogoje ipd.(kriterij specifikacije). Primer: " v terenu III.ktg "
-	kriterij specifikacije
-		kriterij po katerem določamo dopolnilno specifikacijodoloča kriterij po katerem se specifikacije oblikujejo  po posameznih postavkah in delih. Primer: "klasifikacija zemljišča po kategorijah od I do VII"  	
-	dela
-			osnovna skupina sorodnih posameznih postavk. Primer: "Izkopi"     
+    
 
 Vsebina :
 ---------
