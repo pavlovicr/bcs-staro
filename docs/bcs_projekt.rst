@@ -39,7 +39,7 @@ Aktivnosti in faznost
 .. glossary::
 
 	standardizirani popisi del
-		urejeni seznami podrobno opisanih posameznih del, ki nastopajo pri gradnjah
+	urejeni seznami podrobno opisanih posameznih del, ki nastopajo pri gradnjah
 	postavka
 		osnovni opis posameznega dela
 	specifikacija
