@@ -8,7 +8,7 @@ Uvod
 ----
 V 28. členu pravilnika o projektni dokumentaciji piše "...., se za celovit opis objekta v projektu za izvedbo izdela zbirno tehnično poročilo, ki vsebuje tudi skupen popis materiala in opreme z rekapitulacijo stroškov izgradnje, pri čemer je za njegovo izdelavo zadolžen koordinator ........
 
-Zahteve navedene v pravilniku  se le deloma prekrivajo z vsebino POPISOV DEL, ki v praksi pomenijo nepogrešljiv dokument pri gradnjah. V popisih del so opisane sestave gradbenih konstrukcij in njihovih delov , tehnologije izvedbe, uporabljeni materiali in na njih vezane zahteve iz zakona o gradbenih proizvodih, pravila za zagotavljanje kvaliete, pravila pri obračunu in merjenju količin, varnostne zahteve itd..
+Popis materiala in opreme po zahtevah iz navedenega pravilnika  se le deloma prekrivajo z vsebino POPISOV DEL, ki v praksi pomenijo nepogrešljiv dokument pri gradnjah. V popisih del ni samo popisa materiala in opreme. V popisu del so opisane sestave gradbenih konstrukcij in njihovih delov , tehnologije izvedbe, uporabljeni materiali in na njih vezane zahteve iz zakona o gradbenih proizvodih, pravila za zagotavljanje kvaliete, pravila pri obračunu in merjenju količin, varnostne zahteve, navedbe standardov itd..
 Popisi del so pri gradnjah po sistemu " na enoto mere " ključni pri definiranju predmeta pogodbe in izračunu končne cene pogodbenih del.
 
 Kljub temu, da so popisi del pomemben del gradbene dokumentacije, Slovenija ne premore enotne metodologije za njihovo izdelavo prav tako ni javno dostopnih zbirk popisov del, ki bi nadomestili zastarele standardizirane popise del (GIPPOS, Fabrizzio, ..). Ostali so le redki in to samo za določene zvrsti del.(Skupnost za ceste).
@@ -32,11 +32,11 @@ Aktivnosti in faznost
 1. Dokumentacija 
 ---------------- 
 
-	1.1 Izhodišča
-
-	1.2 Pomen izrazov
-	
-	.. glossary::
+1.1 Izhodišča
+-------------	
+1.2 Pomen izrazov
+-----------------
+.. glossary::
 
 	standardizirani popisi del
 		urejeni seznami podrobno opisanih posameznih del, ki nastopajo pri gradnjah
