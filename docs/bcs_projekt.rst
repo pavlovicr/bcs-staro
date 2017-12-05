@@ -36,6 +36,7 @@ Aktivnosti in faznost
 	
 1.2 Pomen izrazov
 .. glossary::
+
 	standardizirani popisi del
 		urejeni seznami podrobno opisanih posameznih del, ki nastopajo pri gradnjah
 	postavka
