@@ -57,6 +57,8 @@ Aktivnosti in faznost
 
 	1.3 Opis elementov in medsebojnih odvisnosti
 	1.4 Shema
+		ratata
+
 	1.5 Vzorčni primer
 	1.6 Izhodišča za spletno aplikacijo
 
