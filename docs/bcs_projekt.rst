@@ -11,9 +11,9 @@ Poglej v Piton_ kodo.
 	.. literalinclude:: conf.py
   		:linenos:
    		:language: python
-   		:lines: 
-   		:start_after: 2
-   		:end_before:10
+   		:lines: 1, 3-5 
+   		:start_after: 3
+   		:end_before:5
 
 
 	.. code-block:: sql
