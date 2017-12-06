@@ -9,17 +9,17 @@ Poglej v Piton_ kodo.
 `najdi <http://www.najdi.si/>`_
 
 	.. literalinclude:: conf.py
-  	:linenos:
-   	:language: python
-   	:lines: 
-   	:start_after: 2
-   	:end_before:10
+  		:linenos:
+   		:language: python
+   		:lines: 
+   		:start_after: 2
+   		:end_before:10
 
 
 	.. code-block:: sql
-   :linenos:
+   		:linenos:
 
-   SELECT * FROM bcs
+   		SELECT * FROM bcs
 
 
 
