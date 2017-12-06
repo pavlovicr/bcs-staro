@@ -1,6 +1,9 @@
 BCS
 ===
 
+>>> a = 1
+
+
 Standardizirani popisi del(Building Construction Specifications - Specifikacije del pri gradnjah)
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
