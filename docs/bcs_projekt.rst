@@ -39,7 +39,7 @@ Aktivnosti in faznost
 .. glossary::
 
 	standardizirani popisi del
-	urejeni seznami podrobno opisanih posameznih del, ki nastopajo pri gradnjah
+		urejeni seznami podrobno opisanih posameznih del, ki nastopajo pri gradnjah
 	postavka
 		osnovni opis posameznega dela
 	specifikacija
@@ -60,10 +60,7 @@ Aktivnosti in faznost
 	1.5 Vzorčni primer
 	1.6 Izhodišča za spletno aplikacijo
 
-Izhodišča
----------
-GIPOS,knjiga 2003,nemsko,Fabrizzio
-vsebine po različnih področjih , stan gradnja, cestgradnja, industrijski objekti 
+
 
 
 Uporabljeni izrazi:

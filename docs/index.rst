@@ -10,6 +10,7 @@ Contents:
 
 .. toctree::
    :maxdepth: 2
+   :numbered:
       
    bcs_instalacija
    bcs_projekt
