@@ -188,8 +188,8 @@ Postavke so temeljni element specifikacije del pri gradnjah.  S postavko so opre
 
 .. _Django Documentation: http://docs.djangoproject.com
 
-.. _Piton: 'a=5'¸a¸
 
+.. _Piton: http://najdi.si
 
 
 
