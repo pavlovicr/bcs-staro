@@ -4,6 +4,7 @@ BCS
 >>> a = 1
 
 Look in the `Django Documentation`_.
+Poglej v Piton_ kodo.
 
 
 
@@ -187,7 +188,7 @@ Postavke so temeljni element specifikacije del pri gradnjah.  S postavko so opre
 
 .. _Django Documentation: http://docs.djangoproject.com
 
-
+.. _Piton: 'a=5'¸a¸
 
 
 
