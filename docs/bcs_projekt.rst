@@ -1,6 +1,6 @@
-****
+***
 BCS
-****
+***
 
 >>> a = 1
 
@@ -11,10 +11,10 @@ Poglej v Piton_ kodo.
 
 
 Standardizirani popisi del(Building Construction Specifications - Specifikacije del pri gradnjah)
-###############################
+################################################################
 
 Uvod 
-----
+****
 
 V 28. členu pravilnika o projektni dokumentaciji piše "...., se za celovit 
 opis objekta v projektu za izvedbo izdela zbirno tehnično poročilo, ki vsebuje tudi skupen popis materiala in opreme z rekapitulacijo stroškov izgradnje, pri čemer je za njegovo izdelavo zadolžen koordinator ........
@@ -26,11 +26,11 @@ Kljub temu, da so popisi del pomemben del gradbene dokumentacije, Slovenija ne p
 Zanimivo, da se je zakonodajalec zelo potrudil pri oblikovanju knjige obračunskih izmer v "pravilniku o vsebini in načinu vodenja dnevnika o izvajanju del ter o načinu označitve gradbišča ", vsebine pa kot da bi se ustrašil.
 
 Cilj projekta
--------------
+*************
 Izdelati sodoben sistem priprave, urejanja in vzdrževanja standardiziranih popisov del , ki bo javno dostopen prek spleta 
 
 Aktivnosti in faznost
----------------------
+*********************
 1. faza
 	* Izdelava dokumentacije,  vsebinski del in del za razvoj aplikacije  
 	* Razvoj aplikacije 
@@ -41,12 +41,13 @@ Aktivnosti in faznost
 	* Izdelava dokumentacije za upravljanje sistema
 		 
 1. Dokumentacija 
----------------- 
+================
 
 1.1 Izhodišča
+-------------
 	
 1.2 Pomen izrazov
-
+-----------------
 .. glossary::
 
 	standardizirani popisi del
@@ -67,23 +68,20 @@ Aktivnosti in faznost
 			osnovna skupina sorodnih posameznih postavk. Primer: "Izkopi"     
 
 1.3 Opis elementov in medsebojnih odvisnosti
+--------------------------------------------
 1.4 Shema
-	ratata ena
+---------
+
+ratata ena
 
 1.5 Vzorčni primer
+------------------
+
 1.6 Izhodišča za spletno aplikacijo
+-----------------------------------
 
-
-
-
-Uporabljeni izrazi:
--------------------
-.. glossary::
-
-    
-
-Vsebina :
----------
+1.7 Vsebina
+-----------
 
 Dokumentacija je vsebinsko razdeljena na tri dele.
 
@@ -163,13 +161,6 @@ To je normalen stavek do sem::
 in spet normalen stavek	
 
 .. warning:: ratatata)
-
-
-
-
-
-
-
 
 
 
