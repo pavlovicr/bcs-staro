@@ -12,7 +12,8 @@ Poglej v Piton_ kodo.
   	:linenos:
    	:language: python
    	:lines: 1, 3-5
-   	
+   	:start-after: import os 
+    :end-before: version
 
 Standardizirani popisi del(Building Construction Specifications - Specifikacije del pri gradnjah)
 ################################################################
