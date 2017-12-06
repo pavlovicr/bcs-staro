@@ -8,7 +8,7 @@ Look in the `Django Documentation`_.
 Poglej v Piton_ kodo.
 `najdi <http://www.najdi.si/>`_
 
-	.. literalinclude::conf.py
+	.. literalinclude::/conf.py
     	:linenos:
     	:language: python
     	:lines: 1, 3-5
