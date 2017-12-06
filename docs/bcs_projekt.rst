@@ -55,12 +55,12 @@ Aktivnosti in faznost
 	dela
 			osnovna skupina sorodnih posameznih postavk. Primer: "Izkopi"     
 
-	1.3 Opis elementov in medsebojnih odvisnosti
-	1.4 Shema
-		ratata
+1.3 Opis elementov in medsebojnih odvisnosti
+1.4 Shema
+	ratata ena
 
-	1.5 Vzorčni primer
-	1.6 Izhodišča za spletno aplikacijo
+1.5 Vzorčni primer
+1.6 Izhodišča za spletno aplikacijo
 
 
 
