@@ -4,7 +4,7 @@ BCS
 >>> a = 1
 
 Look in the `Django Documentation`_.
-.. _Django Documentation: http://docs.djangoproject.com
+
 
 
 Standardizirani popisi del(Building Construction Specifications - Specifikacije del pri gradnjah)
@@ -185,7 +185,7 @@ Postavke so temeljni element specifikacije del pri gradnjah.  S postavko so opre
 	dela
 			seznami postavk in kriterijev specifikacij zbranih po vrsti dela. Primer: "Izkopi"     
 
-
+.. _Django Documentation: http://docs.djangoproject.com
 
 
 
