@@ -80,8 +80,7 @@ Dokumentacija je vsebinsko razdeljena na tri dele.
 * splošna in posebna določila
 * popisi del
 
-.. note::
-   Sklop " specifikacije posameznih del " predstavlja knjižnico podrobnih opisov tehnologije izvedbe posameznih del pri gradnjah objektov, , pogojev vezanih na izvajanja posameznih del in uporabljene materiale.
+.. note:: Sklop " specifikacije posameznih del " predstavlja knjižnico podrobnih opisov tehnologije izvedbe posameznih del pri gradnjah objektov, , pogojev vezanih na izvajanja posameznih del in uporabljene materiale.
 .. note:: V sklopu "splošna in posebna določila " so opredeljene skupine (VRSTA DEL, SKUPINA del po katerih združujemo posamezna dela in določila vezana na  način obračuna, merjenja , zahteve glede kvalitete skupin del, vrste del in posameznih specifikacij
 .. rubric:: Sklop "popisi del " je vezan na konkreten primer gradnje objekta, vrsto gradnje, skupino del ali....
 
@@ -162,21 +161,6 @@ in spet normalen stavek
 
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 Postavke predstavljajo popis del, ki se pojavljajo pri gradnjah in se zbirajo v delih
 
 Postavka skupaj s specifikacijami postavke 
@@ -207,43 +191,6 @@ Postavke so temeljni element specifikacije del pri gradnjah.  S postavko so opre
 
 
 
-
-
-Kaj imam povedati
-
-
-
-
-
-
-Dela predstavljajo prvi nivo specifikacije, ki konkretno opredeljuje delo.
-
-je temeljna specifikacija dela in pripada določenim delom
-Specifikacija podrobno razlaga postavko glede na kriterije.
-To je treba podrobneje opisati
-Sledi opis medsebojnih relacij
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-specifikacija postavke.......tuji ključ ------kriterij postavke
-postavka ....................tuji ključ ......dela
-
-specifikacija postavke      
 
 
 
