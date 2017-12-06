@@ -11,8 +11,19 @@ Poglej v Piton_ kodo.
 	.. literalinclude:: conf.py
   	:linenos:
    	:language: python
-   	:lines: 1-10
-   	
+   	:lines: 
+   	:start_after: 2
+   	:end_before:10
+
+
+	.. code-block:: sql
+   :linenos:
+
+   SELECT * FROM bcs
+
+
+
+
 Standardizirani popisi del(Building Construction Specifications - Specifikacije del pri gradnjah)
 ################################################################
 
