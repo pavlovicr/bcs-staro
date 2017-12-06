@@ -11,10 +11,8 @@ Poglej v Piton_ kodo.
 	.. literalinclude:: conf.py
   	:linenos:
    	:language: python
-   	:lines: 1, 3-5
-   	:start-after: import os 
-    :end-before: version
-
+   	:lines: 1-10
+   	
 Standardizirani popisi del(Building Construction Specifications - Specifikacije del pri gradnjah)
 ################################################################
 
