@@ -5,7 +5,7 @@ BCS
 
 Look in the `Django Documentation`_.
 Poglej v Piton_ kodo.
-`najdi <http://www.najdi.si>`_
+`najdi <http://www.najdi.si/>`_
 
 
 
