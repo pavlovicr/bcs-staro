@@ -8,12 +8,14 @@ Look in the `Django Documentation`_.
 Poglej v Piton_ kodo.
 `najdi <http://www.najdi.si/>`_
 
-.. literalinclude:: conf.py
+.. literalinclude::
+	manage.py 
     :linenos:
     :language: python
     :lines: 1, 3-5
     :start-after: 3
     :end-before: 5
+
 
 Standardizirani popisi del(Building Construction Specifications - Specifikacije del pri gradnjah)
 ################################################################
