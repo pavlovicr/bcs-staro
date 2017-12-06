@@ -5,7 +5,7 @@ BCS
 
 Look in the `Django Documentation`_.
 Poglej v Piton_ kodo.
-
+`najdi <www.najdi.si>`_
 
 
 Standardizirani popisi del(Building Construction Specifications - Specifikacije del pri gradnjah)
