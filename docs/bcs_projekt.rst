@@ -16,13 +16,6 @@ Poglej v Piton_ kodo.
    		:end_before:5
 
 
-	.. code-block:: sql
-   		:linenos:
-
-   		SELECT * FROM bcs
-
-
-
 
 Standardizirani popisi del(Building Construction Specifications - Specifikacije del pri gradnjah)
 ################################################################
