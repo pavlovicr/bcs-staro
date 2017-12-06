@@ -17,7 +17,7 @@ Uvod
 ****
 28. člen pravilnika o projektni dokumentaciji pravi::
 
-	 ..., se za celovit opis objekta v projektu za izvedbo izdela zbirno tehnično poročilo,
+	 **..., se za celovit opis objekta v projektu za izvedbo izdela zbirno tehnično poročilo,**
 	 ki vsebuje tudi skupen popis materiala in opreme z rekapitulacijo stroškov izgradnje, 
 	 pri čemer je za njegovo izdelavo zadolžen koordinator .....
 
