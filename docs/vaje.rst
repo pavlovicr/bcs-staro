@@ -8,6 +8,14 @@ Look in the `Django Documentation`_.
 Poglej v Piton_ kodo.
 `najdi <http://www.najdi.si/>`_
 
+
+Napišimo par stavkov,
+
+ki so v ločenih vrsticah
+
+tako kot to zahtevajo pravila RST
+
+
  
 
 	.. literalinclude:: ../README.rst
