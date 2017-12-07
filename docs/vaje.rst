@@ -17,9 +17,9 @@ Poglej v Piton_ kodo.
 
 	.. image:: /home/pavlovicr/slika.jpg
 	   :width: 200px
-	   :align: left
+	   :align: center
 	   :height: 100px
-	   :alt: alternate text
+	   :alt: kaj pa sedaj
 
 
 podnaslov za vaje 
