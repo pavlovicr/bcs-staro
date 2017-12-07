@@ -13,6 +13,7 @@ Napišimo par stavkov, ki so v ločenih vrsticah.
 
 | Pravila zahtevajo razmak med vrsticami.
 | Tudi drugače gre. Z "|" , ki se skriva za črko W.
+| Poravnava pa ne bo strogo levo.
 
 
  
