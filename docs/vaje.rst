@@ -11,7 +11,7 @@ Poglej v Piton_ kodo.
 
 Napišimo par stavkov, ki so v ločenih vrsticah.
 
-Pravila zahtevajo razmk med vrsticami.\
+Pravila zahtevajo razmk med vrsticami.\\
 Pač ne gre drugače.
 
  
