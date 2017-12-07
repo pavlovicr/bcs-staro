@@ -10,7 +10,7 @@ Poglej v Piton_ kodo.
 
  
 
-.. literalinclude:: conf.py
+.. literalinclude:: index.rst
 :lines: 1,3,5-10
 
 
