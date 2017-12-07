@@ -2,18 +2,6 @@
 BCS
 ***
 
->>> a = 1
-
-Look in the `Django Documentation`_.
-Poglej v Piton_ kodo.
-`najdi <http://www.najdi.si/>`_
-
- 
-
-	.. literalinclude:: index.rst
-	   :lines: 1,3,5-15
-	   :emphasize-lines: 12,13
-
 
 Standardizirani popisi del(Building Construction Specifications - Specifikacije del pri gradnjah)
 ################################################################
@@ -189,10 +177,7 @@ Postavke so temeljni element specifikacije del pri gradnjah.  S postavko so opre
 	dela
 			seznami postavk in kriterijev specifikacij zbranih po vrsti dela. Primer: "Izkopi"     
 
-.. _Django Documentation: http://docs.djangoproject.com
 
-
-.. _Piton: http://najdi.si
 
 
 
