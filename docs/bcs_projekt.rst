@@ -10,8 +10,8 @@ Poglej v Piton_ kodo.
 
  
 
-.. literalinclude:: index.rst
-:lines: 1,3,5-10
+	.. literalinclude:: index.rst
+	   :lines: 1,3,5-10
 
 
 Standardizirani popisi del(Building Construction Specifications - Specifikacije del pri gradnjah)
