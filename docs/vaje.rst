@@ -16,6 +16,7 @@ Napišimo par stavkov, ki so v ločenih vrsticah.
 | Poravnava pa ne bo strogo levo.
 
 Napišimo še formulo za H\ :sub:`2`\ O 
+
 .. Črtice ob 2 se skrivajo pod 7.
 
 
