@@ -9,7 +9,7 @@ Poglej v Piton_ kodo.
 `najdi <http://www.najdi.si/>`_
 
 .. literalinclude:: conf.py 
-:lines: 1, 3-5
+:end-before: 'import os'
 
 
 Standardizirani popisi del(Building Construction Specifications - Specifikacije del pri gradnjah)
