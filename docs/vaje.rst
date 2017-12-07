@@ -9,32 +9,10 @@ Poglej v Piton_ kodo.
 `najdi <http://www.najdi.si/>`_
 
 
-Napišimo par stavkov,
+Napišimo par stavkov, ki so v ločenih vrsticah.
 
-ki so v ločenih vrsticah
-
-tako kot to zahtevajo pravila RST.
-
+Pravila zahtevajo razmk med vrsticami.\
 Pač ne gre drugače.
-
-
-Napišimo par stavkov,
-ki so v ločenih vrsticah
-tako kot to zahtevajo pravila RST.
-Pač ne gre drugače.
-
-
-
-		Napišimo par stavkov,
-ki so v ločenih vrsticah
-tako kot to zahtevajo pravila RST.
-Pač ne gre drugače.
-
-
-
-
-
-
 
  
 
