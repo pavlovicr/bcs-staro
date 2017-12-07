@@ -14,7 +14,7 @@ Poglej v Piton_ kodo.
 	   :lines: 1,3,5-15
 	   :emphasize-lines: 12,13
 
-:doc: C:/desktop/EN 1401
+:doc: `C:/desktop/EN 1401`
 
 
 
