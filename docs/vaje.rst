@@ -11,7 +11,7 @@ Poglej v Piton_ kodo.
 
 Napišimo par stavkov, ki so v ločenih vrsticah.
 
-Pravila zahtevajo razmak med vrsticami.
+| Pravila zahtevajo razmak med vrsticami.
 | Tudi drugače gre. Z "|" , ki se skriva za črko W.
 
 
