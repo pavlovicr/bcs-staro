@@ -14,8 +14,9 @@ Napišimo par stavkov, ki so v ločenih vrsticah.
 | Pravila zahtevajo razmak med vrsticami.
 | Tudi drugače gre. Z | , ki se skriva za črko W.
 | Poravnava pa ne bo strogo levo.
-.. To je komentar.
-Napišimo še formulo za H\ :sub:`2`\ O. Črtice ob 2 se skrivajo pod 7.
+
+Napišimo še formulo za H\ :sub:`2`\ O 
+.. Črtice ob 2 se skrivajo pod 7.
 
 
  
