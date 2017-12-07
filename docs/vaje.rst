@@ -17,7 +17,7 @@ Poglej v Piton_ kodo.
 
 	.. image:: slika.jpg
        :width: 100px
-       :align: center
+       :align: left
        :height: 50px
        :alt: alternate text
 
