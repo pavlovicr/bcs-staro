@@ -15,11 +15,11 @@ Poglej v Piton_ kodo.
 	   :emphasize-lines: 12,13
 
 
-	.. image:: /slika.jpg
+	.. image:: bcs/slika.jpg
 	   :width: 200px
 	   :align: center
 	   :height: 100px
-	   :alt: kaj pa to
+	   :alt: kaj to
 
 
 podnaslov za vaje 
