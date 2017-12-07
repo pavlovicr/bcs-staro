@@ -10,7 +10,7 @@ Poglej v Piton_ kodo.
 
  
 
-	.. literalinclude:: index.rst
+	.. literalinclude:: ../README.rst
 	   :lines: 1,3,5-15
 	   :emphasize-lines: 12,13
 
