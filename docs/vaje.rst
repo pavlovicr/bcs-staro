@@ -17,7 +17,7 @@ Napišimo par stavkov, ki so v ločenih vrsticah.
 
 Napišimo še formulo za H\ :sub:`2`\ O 
 
-.. Črtice ob 2 se skrivajo pod 7.
+.. Črtice ob 2 se skrivajo pod 7. ..
 
 
  
