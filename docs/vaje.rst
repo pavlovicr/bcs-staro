@@ -15,7 +15,7 @@ Napišimo par stavkov, ki so v ločenih vrsticah.
 | Tudi drugače gre. Z | , ki se skriva za črko W.
 | Poravnava pa ne bo strogo levo.
 ..To je komentar.
-Napišimo še formulo za H\ :sub: '2' \O
+Napišimo še formulo za H\ :sub: `2` \O
 
 
  
@@ -37,7 +37,6 @@ podnaslov za vaje
 
 Uvod 
 ****
-
 
 
 
