@@ -8,10 +8,16 @@ Look in the `Django Documentation`_.
 Poglej v Piton_ kodo.
 `najdi <http://www.najdi.si/>`_
 
-.. literalinclude:: bcs_instalacija.rst 
+ 
 
-:language: rst
-:lines: 3-10
+.. literalinclude:: conf.py
+:linenos: 5
+:language: python
+:lines: 5
+:start-after:
+:end-before:
+:emphasize-lines
+
 
 
 Standardizirani popisi del(Building Construction Specifications - Specifikacije del pri gradnjah)
