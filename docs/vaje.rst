@@ -9,8 +9,8 @@ Poglej v Piton_ kodo.
 `najdi <http://www.najdi.si/>`_
 
 
-Napišimo par stavkov,
-"ki so v ločenih vrsticah"
+*Napišimo par stavkov,
+ki so v ločenih vrsticah
 tako kot to zahtevajo pravila RST
 
 
