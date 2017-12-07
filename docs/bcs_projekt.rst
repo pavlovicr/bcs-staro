@@ -10,14 +10,8 @@ Poglej v Piton_ kodo.
 
  
 
-.. literalinclude:: conf.py
-:linenos: 5
-:language: python
-:lines: 5
-:lineno-start: 1
-:lineno-end: 10
-:emphasize-lines:
-
+	.. literalinclude:: conf.py
+   	   :lines: 1,3,5-10
 
 
 Standardizirani popisi del(Building Construction Specifications - Specifikacije del pri gradnjah)
