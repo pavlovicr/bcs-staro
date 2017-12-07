@@ -14,8 +14,12 @@ Poglej v Piton_ kodo.
 	   :lines: 1,3,5-15
 	   :emphasize-lines: 12,13
 
-:doc: `C:/desktop/EN 1401`
 
+	.. image:: `/home/pavlovicr/stars.jpg`
+       :width: 200px
+       :align: center
+       :height: 100px
+       :alt: alternate text
 
 
 podnaslov za vaje 
