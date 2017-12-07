@@ -15,7 +15,7 @@ Poglej v Piton_ kodo.
 	   :emphasize-lines: 12,13
 
 
-	.. image:: ~/bcs/slika.jpg
+	.. image:: slika.jpg
 	   :width: 200px
 	   :align: center
 	   :height: 100px
