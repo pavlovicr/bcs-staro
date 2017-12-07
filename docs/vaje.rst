@@ -11,7 +11,7 @@ Poglej v Piton_ kodo.
  
 
 	.. literalinclude:: ../README.rst
-	   :lines: 1,3,5-15
+	   :lines: 1,3,5-25
 	   :emphasize-lines: 12,13
 
 
