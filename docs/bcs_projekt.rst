@@ -14,9 +14,9 @@ Poglej v Piton_ kodo.
 :linenos: 5
 :language: python
 :lines: 5
-:start-after:
-:end-before:
-:emphasize-lines
+:lineno-start: 1
+:lineno-end: 10
+:emphasize-lines:
 
 
 
