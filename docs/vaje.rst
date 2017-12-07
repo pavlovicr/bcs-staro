@@ -10,9 +10,7 @@ Poglej v Piton_ kodo.
 
 
 Napišimo par stavkov,
-
 ki so v ločenih vrsticah
-
 tako kot to zahtevajo pravila RST
 
 
