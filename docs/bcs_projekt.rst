@@ -12,7 +12,7 @@ Poglej v Piton_ kodo.
 
 	.. literalinclude:: index.rst
 	   :lines: 1,3,5-15
-	   :emphasize-lines: 5
+	   :emphasize_lines: 5
 
 
 Standardizirani popisi del(Building Construction Specifications - Specifikacije del pri gradnjah)
