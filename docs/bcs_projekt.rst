@@ -28,21 +28,24 @@ Izdelati sodoben sistem priprave, urejanja in vzdrževanja standardiziranih popi
 Aktivnosti in faznost
 *********************
 1. faza
-	* Izdelava dokumentacije,  vsebinski del in del za razvoj aplikacije  
-	* Razvoj aplikacije 
+	* Izdelava dokumentacije - vsebinski del
+	* Razvoj aplikacije   
 2. faza
 	* Produkcija
 	* Urejanje specifikacij na vzorčnem primeru stanovanjske gradnje do III.FAZE
 3. faza 
 	* Izdelava dokumentacije za upravljanje sistema
 		 
-1. Dokumentacija 
-================
+1. Dokumentacija - vsebinski del
+=================================
 
-1.1 Izhodišča
+1.1 splošnoV dokumentaciji vsebinskega dela standardiziranih popisov del je opisan...........................................................
+
+
+1.2 Izhodišča
 -------------
 	
-1.2 Pomen izrazov
+1.3 Pomen izrazov
 -----------------
 .. glossary::
 
@@ -51,30 +54,74 @@ Aktivnosti in faznost
 	postavka
 		osnovni opis posameznega dela
 	specifikacija
-		dodatni opis postavk
+		dodatni opis posameznega dela oziroma postavke
 	kriterij specifikacije
-		kriterij po katerem določamo dopolnilno specifikacijodoloča kriterij po katerem se specifikacije oblikujejo  po posameznih postavkah in delih. Primer: "klasifikacija zemljišča po kategorijah od I do VII"  	
+		merila za oblikovanje vsebine  specifikacije 	
 	določila
-		opis zahtev in pravil vezanih na izvedbo postavke
+		opis pravil vezanih na izvedbo postavke, dela ali skupine del
 	kriterij določila
-
-
-
+		merila za oblikovanje vsebine  specifikacije 
 	dela
-			osnovna skupina sorodnih posameznih postavk. Primer: "Izkopi"     
+		skupina sorodnih postavk
+	vrsta del
+		skupina sorodnih del	     
 
-1.3 Opis elementov in medsebojnih odvisnosti
+1.4 Vsebina
 --------------------------------------------
+
+* specifikacije del
+* splošna in posebna določila
+* popisi del
+
+3.4.1 Specifikacije del 
+^^^^^^^^^^^^^^^^^^^^^^^^^
+
+
+Knjižnica standardiziranih popisov je zbirka elementov generiranih popisnih postavk za izvajanje del, ki se pojavljajo pri gradnjah. Knjižnica vsebuje sezname elementov :
+	postavk ,
+	specifikacij ,
+	kriterijev specifikacij ,
+iz katerih so popisne postavke sestavljene in sezname
+	del  
+	in vrste del, 
+v okviru katerih se popisne postavke združujejo. 
+
+Vsaki postavki pripada več specifikacij , ki podrobneje opisujejo predmet in pogoje dela postavke. 
+
+Popisne postavke sestavljajo postavke s specifikacijami, ki jim pripadajo in podrobneje opisujejo postavko. Specifikacije so organizirane v  okviru postavk in del , ki jim pripadajo ter po kriteriju, ki opredeljuje namen specifikacije.   
+Popisne postavke so organizirane v okviru del in vrste del , ki jim pripadajo.
+
+Popisne postavke niso organizirane v seznamih temveč jih sestavljamo modularno. 
+Knjižnica  pri gradnja , ki nastopajo pri gradnjah. Postavka je jedro popisne postavke in sama po sebi opredeljuje osnovni predmet dela in enoto mere.
+Specifikacije podrobneje definirajo postavko (prednmet dela)in pogoje izvedbe. Specifikacije so organizirane v okviru posameznih skupin , ki jih imenujemo kriterij specifikacije.
+Postavke s specifikacijami tvorijo popisne postavke, ki jih sestavljamo modularno.
+
+3.4.2 Splošna in posebna določila
+^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+
+Določila niso nič drugega kot specifikacije specifikacij, postavk, del in vrst del ter določila, ki veljajo za gradnje nasplošno.Za razliko od tehnično tehnoloških specifikacij ta določajo pravila glede uporabe zakonodaje, obračunov, varnosti, kakovosti ipd.
+
+
+
+
+
+
+
 1.4 Shema
 ---------
-
-ratata ena
 
 1.5 Vzorčni primer
 ------------------
 
 1.6 Izhodišča za spletno aplikacijo
 -----------------------------------
+
+
+
+
+
+
+
 
 1.7 Vsebina
 -----------
@@ -92,33 +139,6 @@ V sklopu "splošna in posebna določila " so opredeljene skupine (VRSTA DEL, SKU
 
 
 
-Specifikacije del 
-----------------------------
-
-
-Knjižnica standardiziranih popisov je zbirka elementov generiranih popisnih postavk za izvajanje del, ki se pojavljajo pri gradnjah. Knjižnica vsebuje sezname elementov :
- postavk ,
-specifikacij ,
-kriterijev specifikacij ,
-iz katerih so popisne postavke sestavljene in sezname
-del  
-in vrste del, 
-v okviru katerih se popisne postavke združujejo. 
-
-Vsaki postavki pripada več specifikacij , ki podrobneje opisujejo predmet in pogoje dela postavke. 
-
-Popisne postavke sestavljajo postavke s specifikacijami, ki jim pripadajo in podrobneje opisujejo postavko. Specifikacije so organizirane v  okviru postavk in del , ki jim pripadajo ter po kriteriju, ki opredeljuje namen specifikacije.   
-Popisne postavke so organizirane v okviru del in vrste del , ki jim pripadajo.
-
-Popisne postavke niso organizirane v seznamih temveč jih sestavljamo modularno. 
-Knjižnica  pri gradnja , ki nastopajo pri gradnjah. Postavka je jedro popisne postavke in sama po sebi opredeljuje osnovni predmet dela in enoto mere.
-Specifikacije podrobneje definirajo postavko (prednmet dela)in pogoje izvedbe. Specifikacije so organizirane v okviru posameznih skupin , ki jih imenujemo kriterij specifikacije.
-Postavke s specifikacijami tvorijo popisne postavke, ki jih sestavljamo modularno.
-
-Splošna in posebna določila
-----------------------------
-
-Določila niso nič drugega kot specifikacije specifikacij, postavk, del in vrst del ter določila, ki veljajo za gradnje nasplošno.Za razliko od tehnično tehnoloških specifikacij ta določajo pravila glede uporabe zakonodaje, obračunov, varnosti, kakovosti ipd.
 
 
 
@@ -126,26 +146,6 @@ Določila niso nič drugega kot specifikacije specifikacij, postavk, del in vrst
 
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-	``Priprava standardiziranih| popisov del``\:sub:``vaja``\
-	#. Priprava splošnih in posebnih določil
-
-#. Projektna naloga
-___________________
-
-
-| naša četica koraka
 | strumno in veselo
 | drug za drugim v ravni vrsti
 | zdaj gremo na delo
@@ -157,52 +157,6 @@ To je normalen stavek do sem::
 in spet normalen stavek	
 
 .. warning:: ratatata)
-
-
-
-Postavke predstavljajo popis del, ki se pojavljajo pri gradnjah in se zbirajo v delih
-
-Postavka skupaj s specifikacijami postavke 
-
-
-Postavke so temeljni element specifikacije del pri gradnjah.  S postavko so opredeljene temeljne značilnosti posameznega dela. Postavka generalno definira predmet posameznega dela in enoto mere , ki ji pripada. Podrobneje je postavka opisana s specifikacijami postavke. Sorodne postavke se po vrsti dela združujejo v skupini "dela",  
-
-
-	postavka
-		opisuje  predmet posameznega dela in določa enote mere. Primer: "Izkop jarka"  
-	specifikacija
-		dopolnjuje opis postavke glede na možne tehnologije izvedbe, materiale, opremo, delovne pogoje ipd.(kriterij specifikacije). Primer: " v terenu III.ktg "
-	kriterij specifikacije
-		določa kriterij po katerem se specifikacije oblikujejo  po posameznih postavkah in delih. Primer: "klasifikacija zemljišča po kategorijah od I do VII"  	
-	dela
-			seznami postavk in kriterijev specifikacij zbranih po vrsti dela. Primer: "Izkopi"     
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 
 
