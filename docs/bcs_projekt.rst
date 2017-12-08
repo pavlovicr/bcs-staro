@@ -39,8 +39,8 @@ Aktivnosti in faznost
 1. Dokumentacija - vsebinski del
 =================================
 
-1.1 splošnoV dokumentaciji vsebinskega dela standardiziranih popisov del je opisan...........................................................
-
+1.1 Splošno
+------------
 
 1.2 Izhodišča
 -------------
@@ -73,7 +73,7 @@ Aktivnosti in faznost
 * splošna in posebna določila
 * popisi del
 
-3.4.1 Specifikacije del 
+1.4.1 Specifikacije del 
 ^^^^^^^^^^^^^^^^^^^^^^^^^
 
 
@@ -96,8 +96,8 @@ Knjižnica  pri gradnja , ki nastopajo pri gradnjah. Postavka je jedro popisne p
 Specifikacije podrobneje definirajo postavko (prednmet dela)in pogoje izvedbe. Specifikacije so organizirane v okviru posameznih skupin , ki jih imenujemo kriterij specifikacije.
 Postavke s specifikacijami tvorijo popisne postavke, ki jih sestavljamo modularno.
 
-3.4.2 Splošna in posebna določila
-^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+1.4.2 Splošna in posebna določila
+^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
 Določila niso nič drugega kot specifikacije specifikacij, postavk, del in vrst del ter določila, ki veljajo za gradnje nasplošno.Za razliko od tehnično tehnoloških specifikacij ta določajo pravila glede uporabe zakonodaje, obračunov, varnosti, kakovosti ipd.
 
@@ -107,13 +107,13 @@ Določila niso nič drugega kot specifikacije specifikacij, postavk, del in vrst
 
 
 
-1.4 Shema
+1.5 Shema
 ---------
 
-1.5 Vzorčni primer
+1.6 Vzorčni primer
 ------------------
 
-1.6 Izhodišča za spletno aplikacijo
+1.7 Izhodišča za spletno aplikacijo
 -----------------------------------
 
 
