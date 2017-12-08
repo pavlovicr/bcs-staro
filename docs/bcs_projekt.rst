@@ -10,7 +10,8 @@ Uvod
 ****
 28. člen pravilnika o projektni dokumentaciji pravi :
 
-**se za celovit opis objekta v projektu za izvedbo izdela zbirno tehnično** porčilo, ki vsebuje tudi skupen popis materiala in opreme z rekapitulacijo stroškov izgradnje, pri čemer je za njegovo izdelavo zadolžen koordinator **
+**"...se za celovit opis objekta v projektu za izvedbo izdela zbirno tehnično** 
+**poročilo, ki vsebuje tudi skupen popis materiala in opreme z rekapitulacijo** **stroškov izgradnje, pri čemer je za njegovo izdelavo zadolžen koordinator..."**
 
 
 Popis materiala in opreme po zahtevah iz navedenega pravilnika  se le deloma prekrivajo z vsebino POPISOV DEL, ki v praksi pomenijo nepogrešljiv dokument pri gradnjah. V popisih del ni samo popisa materiala in opreme. V popisu del so opisane sestave gradbenih konstrukcij in njihovih delov , tehnologije izvedbe, uporabljeni materiali in na njih vezane zahteve iz zakona o gradbenih proizvodih, pravila za zagotavljanje kvaliete, pravila pri obračunu in merjenju količin, varnostne zahteve, navedbe standardov itd..
