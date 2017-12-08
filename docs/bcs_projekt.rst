@@ -59,12 +59,7 @@ Seznami posameznih del so sistematično urejeni glede na kriterije opisov posame
 
 **Kaj som standardizirani popisi del ?**
 
-S konsenzom sprejeta metodologija in vsebine ? Standardizirani za tiste, ki pristopijo k uporabi, ?
-
-
-
- z opisi postopkov in tehnologije izvajanja del, materialov, delovnih sredstev in opreme , strojev , z opisom določil in razvrstitvijo v skupine
-
+S strani investitorjev gradenj, projektantov objektov in izvajalcev del sprejeta struktura in vsebina popisov del. ? 
 
 
 1.2 Izhodišča
