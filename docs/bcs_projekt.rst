@@ -27,8 +27,7 @@ Izdelati sodoben sistem priprave, urejanja in vzdrževanja standardiziranih popi
 
 Aktivnosti in faznost
 *********************
-1. faza
-	* Izdelava dokumentacije - vsebinski del
+1. faza	* Izdelava dokumentacije - vsebinski del
 	* Razvoj aplikacije   
 2. faza
 	* Produkcija
