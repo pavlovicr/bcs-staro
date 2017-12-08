@@ -10,7 +10,7 @@ Uvod
 ****
 28. člen pravilnika o projektni dokumentaciji pravi :
 
-``...se za celovit opis objekta v projektu za izvedbo izdela zbirno tehnično** 
+``...se za celovit opis objekta v projektu za izvedbo izdela zbirno tehnično`` 
 ``poročilo, ki vsebuje tudi skupen popis materiala in opreme z rekapitulacijo``
 ``stroškov izgradnje, pri čemer je za njegovo izdelavo zadolžen koordinator...``
 
@@ -27,13 +27,14 @@ Izdelati sodoben sistem priprave, urejanja in vzdrževanja standardiziranih popi
 
 Aktivnosti in faznost
 *********************
-1. faza	* Izdelava dokumentacije - vsebinski del
-	* Razvoj aplikacije   
+1. faza
+* Izdelava dokumentacije - vsebinski del
+* Razvoj aplikacije   
 2. faza
-	* Produkcija
-	* Urejanje specifikacij na vzorčnem primeru stanovanjske gradnje do III.FAZE
+* Produkcija
+* Urejanje specifikacij na vzorčnem primeru stanovanjske gradnje do III.FAZE
 3. faza 
-	* Izdelava dokumentacije za upravljanje sistema
+* Izdelava dokumentacije za upravljanje sistema
 		 
 1. Dokumentacija - vsebinski del
 =================================
