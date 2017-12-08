@@ -15,11 +15,14 @@ Uvod
 **stroškov izgradnje, pri čemer je za njegovo izdelavo zadolžen koordinator..**
 
 
-Popis materiala in opreme po zahtevah iz navedenega pravilnika  se le deloma prekrivajo z vsebino POPISOV DEL, ki v praksi pomenijo nepogrešljiv dokument pri gradnjah. V popisih del ni samo popisa materiala in opreme. V popisu del so opisane sestave gradbenih konstrukcij in njihovih delov , tehnologije izvedbe, uporabljeni materiali in na njih vezane zahteve iz zakona o gradbenih proizvodih, pravila za zagotavljanje kvaliete, pravila pri obračunu in merjenju količin, varnostne zahteve, navedbe standardov itd..
+Vsebina Popisa materiala in opreme po zahtevah iz navedenega pravilnika  se le deloma prekriva z vsebino POPISOV DEL, ki v praksi pomenijo nepogrešljiv dokument pri gradnjah. V POPISIH DEL ni samo popisa materiala in opreme. V popisu del so opisane sestave gradbenih konstrukcij in njihovih delov , tehnologije izvedbe, uporabljeni materiali in na njih vezane zahteve iz zakona o gradbenih proizvodih, pravila za zagotavljanje kvaliete, pravila pri obračunu in merjenju količin, varnostne zahteve, navedbe standardov itd..
 Popisi del so pri gradnjah po sistemu " na enoto mere " ključni pri definiranju predmeta pogodbe in izračunu končne cene pogodbenih del.
 
 Kljub temu, da so popisi del pomemben del gradbene dokumentacije, Slovenija ne premore enotne metodologije za njihovo izdelavo prav tako ni javno dostopnih zbirk popisov del, ki bi nadomestili zastarele standardizirane popise del (GIPPOS, Fabrizzio, ..). Ostali so le redki in to samo za določene zvrsti del.(Skupnost za ceste).
-Zanimivo, da se je zakonodajalec zelo potrudil pri oblikovanju knjige obračunskih izmer v "pravilniku o vsebini in načinu vodenja dnevnika o izvajanju del ter o načinu označitve gradbišča ", vsebine pa kot da bi se ustrašil.
+Zanimivo, da se je zakonodajalec zelo potrudil pri oblikovanju knjige obračunskih izmer v "pravilniku o vsebini in načinu vodenja dnevnika o izvajanju del ter o načinu označitve gradbišča ", vsebine pa kot, da bi se ustrašil.
+
+Prve standardizirane popise del (Fabrizzio) primerne za računalniško obdelavo smo imeli  že v letu 1980, štirideset let pozneje, v obdobju globalne standardizacije in digitalizacije pa jih ne premoremo ?   
+
 
 Cilj projekta
 *************
@@ -28,19 +31,23 @@ Izdelati sodoben sistem priprave, urejanja in vzdrževanja standardiziranih popi
 Aktivnosti in faznost
 *********************
 1. faza
-* Izdelava dokumentacije - vsebinski del
-* Razvoj aplikacije   
+	* Izdelava dokumentacije
+		- vsebinski del
+		- razvoj aplikacije   
 2. faza
-* Produkcija
-* Urejanje specifikacij na vzorčnem primeru stanovanjske gradnje do III.FAZE
+	* Produkcija
+	* Urejanje specifikacij na vzorčnem primeru stanovanjske gradnje do III.FAZE
 3. faza 
-* Izdelava dokumentacije za upravljanje sistema
+	* Izdelava dokumentacije za upravljanje sistema
 		 
 1. Dokumentacija - vsebinski del
 =================================
 
 1.1 Splošno
 ------------
+Standardizirani popisi niso nič novega, so pa v obdobju standardizacije in digitalizacije
+
+
 
 1.2 Izhodišča
 -------------
