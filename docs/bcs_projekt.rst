@@ -48,12 +48,13 @@ Aktivnosti in faznost
 
 **Kaj so popisi del ?**
 
-Popisi del so sistematično urejeni seznami podrobno specificiranih posameznih del, ki se pojavljajo pri gradnjah ter pravil povezanimi z njihovo uporabo.
+**Popisi del so sistematično urejeni seznami podrobno opisanih posameznih del, ki se pojavljajo pri gradnjah s pravili za njihovo uporabo.**
 
-Posamezna dela pomenijo osnovni opis del,  specifikacije pa podroben opis  načina in postopkov izvedbe, uporabljenih materialov , strojev , opreme in orodja , pogojev izvedbe ipd.
+Podrobni opisi posameznih del opisujejo načine in postopke izvajanja posameznih del , izbiro uporabljenih materialov , strojev , opreme in orodja , pogoje izvedbe ipd.
 
-V pravilih vezanih na njihovo uporabo imenovanih "določila" pa so določena pravila v zvezi z zakonodajo in standarfdi na katere se navezujejo , načinu ugotavljanja kvalitete, zagotavljanj avarnosti itd.
+S pravili za uporabo popisov del so določena pravila vezana na merjenje in obračun del posameznih del ali skupin del, zagotavljanje kvalitete, varnostnih ukrepov , zahtev iz zakonodaje in standardov , ipd.
 
+Seznami posameznih del so sistematično urejeni glede na kriterije opisov posameznih del ter skupinam del , ki jim pripadajo.
 
 
 **Kaj som standardizirani popisi del ?**
