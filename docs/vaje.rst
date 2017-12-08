@@ -2,29 +2,25 @@
 VAJE GLAVNI NASLOV
 ********************
 
-podnaslov za vaje 
+podnaslov #######
 ############################
 
-Podpodnaslov
-*************
+Podpodnaslov *****
+*******************
 
-Poglavje
-========
+Poglavje =====
+===============
 
-Podpoglavje
--------------
+Podpoglavje ------
+-------------------
 
-Podpodpoglavje
-^^^^^^^^^^^^^^
+Podpodpoglavje ^^^^^^^^
+^^^^^^^^^^^^^^^^^^^^^^^^
 
-Odstavek št 1 
-"""""""""""""
+Odstavek """""
+"""""""""""""""
+  
 
-Odtstavek št 2
-______________
-
-Odtsavek št 3
-..............
 
 
 
