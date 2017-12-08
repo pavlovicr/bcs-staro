@@ -48,13 +48,13 @@ Aktivnosti in faznost
 
 **Kaj je knjižnica popisov del ?**
 
-**Knjižnica popisov del so sistematično urejeni seznami tehničnih specifikacij del (opisi del) , ki nastopajo pri gradnjah, s pravili oziroma določili za njihovo uporabo.**
-	* Tehnične specifikacije del opredeljujejo načine in postopke izvajanja del , izbiro uporabljenih materialov , strojev , opreme in orodja ter pogoje izvedbe del  in podobno.
-	* Določila opredeljujejo pravila vezana na merjenje in obračun specificiranih del, zagotavljanje kakovosti, izvajanje varnostnih ukrepov ter spoštovanje zahtev zakonodaje in standardov za specificirana dela in podobno.
+**Knjižnica popisov del so sistematično urejeni seznami tehničnih specifikacij del (opisov del) , ki nastopajo pri gradnjah, s pravili oziroma določili za njihovo uporabo.**
+	* Tehnične specifikacije del opredeljujejo načine in postopke izvajanja del , izbiro uporabljenih materialov , strojev , opreme in orodja ter pogoje izvedbe del, ipd.
+	* Določila opredeljujejo pravila vezana na merjenje in obračun specificiranih del, zagotavljanje kakovosti, izvajanje varnostnih ukrepov ter spoštovanje zahtev zakonodaje in standardov za specificirana dela, ipd.
 
 **Kaj so standardizirani popisi del ?**
 
-S strani investitorjev gradenj, projektantov objektov in izvajalcev del sprejet konsenz glede uporabe knjižnice popisov del kot standardne. ? 
+Konsenz investitorjev gradenj, projektantov objektov in izvajalcev del glede uporabe knjižnice popisov del kot standardizirane. ? 
 
 1.2 Izhodišča
 -------------
@@ -70,50 +70,27 @@ S strani investitorjev gradenj, projektantov objektov in izvajalcev del sprejet 
 -----------------
 .. glossary::
 
-	specifikacije del
+	tehnične specifikacije del
 		tehnični opisi del, ki nastopajo pri gradnjah 
-	                s pecifikacije posameznih del
-		              tehnični opisi posameznih del sestavljeni iz osnovnih in dodatnih gradnikov specifikacije del
+	popisne postavke 
+		nosilci tehničnih specifikacij del v okviru popisov del sestavljeni iz postavk in specifikacij postavk
 	postavka
-		osnovna gradnik specifikacije del
+		osnovni gradnik popisne postavke
 	specifikacija postavke
-		dodatni gradnik  specifikacije del	
-	kriterij specifikacije postavke
-		lastnost skupine specifikacij postavk
-	popisi del
-		sistematično urejene specifikacije del za gradnjo objekta
-	knjižnica popisov del
-		sistematično urejeni seznami specifikacij del po delih in vrstah del
-
-
-
-
-
-	splošna določila 
-		pravila vezana na izvajanje 	
-
-
-
-	knjižnica popisov del
-		urejeni seznami podrobno opisanih posameznih del, ki nastopajo pri gradnjah
-	specifikacije posameznih del
-		opisuje  vrsto posameznih del s svojimi značilnostmi
-	postavka
-		osnovna specifikacija posameznega dela
-	specifikacija postavke
-		dodatna specifikacija posameznih del
-	kriterij specifikacijes
-		merilo vsebine  specifikacije 	
-	popisna postavka
-		postavka skupaj s pripadajočimi specifikacijami postavke 
-	določila
-		pravila vezana na izvedbo specifikacije, postavke, dela ali skupine del
-	kriterij določila
-		merilo vsebine določila
+		dodatni gradnik  popisne postavke	
+	kriterij specifikacije 
+		sorodna skupina specifikacij postavk
 	dela
-		skupina sorodnih postavk
+		ime skupine sorodnih postavk
 	vrsta del
-		skupina sorodnih del	     
+		ime skupine sorodnih del 
+	splošna določila 
+		pravila vezana na izvajanje skupine del
+	posebna določila
+		pravila vezana na izvajanje posameznih del
+	kriterij določila
+		sorodna skupina določil		 	
+
 
 1.4 Vsebina
 --------------------------------------------
@@ -125,7 +102,7 @@ S strani investitorjev gradenj, projektantov objektov in izvajalcev del sprejet 
 1.4.1 Specifikacije del 
 ^^^^^^^^^^^^^^^^^^^^^^^^^
 
-Osnovni gradnik specifikacije posameznih del je postavka.
+ Osnovni gradnik specifikacije posameznih del je postavka.
 
 
 
