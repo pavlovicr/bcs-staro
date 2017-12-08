@@ -26,7 +26,7 @@ Prve standardizirane popise del (Fabrizzio) primerne za računalniško obdelavo 
 
 Cilj projekta
 *************
-Izdelati sodoben sistem priprave, urejanja in vzdrževanja javno dostopne , digitalizirane knjižnice standardiziranih popisov del dostopne prek spleta.
+Izdelati sistem priprave, urejanja in vzdrževanja knjižnice standardiziranih popisov del , ki bo sodoben, digitaliziran, dostopen prek spleta in javen ???
 
 Aktivnosti in faznost
 *********************
@@ -46,51 +46,70 @@ Aktivnosti in faznost
 1.1 Splošno
 ------------
 
-**Kaj so popisi del ?**
+**Kaj je knjižnica popisov del ?**
 
-**Popisi del so sistematično urejeni seznami podrobno opisanih posameznih del, ki se pojavljajo pri gradnjah s pravili za njihovo uporabo.**
+**Knjižnica popisov del so sistematično urejeni seznami tehničnih specifikacij del (opisi del) , ki nastopajo pri gradnjah, s pravili oziroma določili za njihovo uporabo.**
+	* Tehnične specifikacije del opredeljujejo načine in postopke izvajanja del , izbiro uporabljenih materialov , strojev , opreme in orodja ter pogoje izvedbe del  in podobno.
+	* Določila opredeljujejo pravila vezana na merjenje in obračun specificiranih del, zagotavljanje kakovosti, izvajanje varnostnih ukrepov ter spoštovanje zahtev zakonodaje in standardov za specificirana dela in podobno.
 
-Podrobni opisi posameznih del opisujejo načine in postopke izvajanja posameznih del , izbiro uporabljenih materialov , strojev , opreme in orodja , pogoje izvedbe ipd.
+**Kaj so standardizirani popisi del ?**
 
-S pravili za uporabo popisov del so določena pravila vezana na merjenje in obračun del posameznih del ali skupin del, zagotavljanje kvalitete, varnostnih ukrepov , zahtev iz zakonodaje in standardov , ipd.
-
-Seznami posameznih del so sistematično urejeni glede na kriterije opisov posameznih del ter skupinam del , ki jim pripadajo.
-
-
-**Kaj som standardizirani popisi del ?**
-
-S strani investitorjev gradenj, projektantov objektov in izvajalcev del sprejeta struktura in vsebina popisov del. ? 
-
+S strani investitorjev gradenj, projektantov objektov in izvajalcev del sprejet konsenz glede uporabe knjižnice popisov del kot standardne. ? 
 
 1.2 Izhodišča
 -------------
 
-Standardizirane opise bomo ločili glede na vrste gradenj :
-		- visoke gradnej
-		- nizke gradnje
-		- hidrotehnični objekti
-Za strukturo se bomo zgledovali po skupnosti za ceste in gippos normah
-
-Struktura mora biti tako razčlenjena , da je elemente mogoče sestavljati v popisne postavke
-
-
+		* Standardizirane opise ločiti glede na vrste gradenj :
+			- visoke gradnej
+			- nizke gradnje
+			- hidrotehnični objekti
+		* Struktura in vsebine po zgledu SKUPNOST ZA CESTE 2008
+		* Strukturo razčlenjena modularno ??
 	
 1.3 Pomen izrazov
 -----------------
 .. glossary::
 
-	standardizirani popisi del
-		urejeni seznami podrobno opisanih posameznih del, ki nastopajo pri gradnjah
+	specifikacije del
+		tehnični opisi del, ki nastopajo pri gradnjah 
+	                s pecifikacije posameznih del
+		              tehnični opisi posameznih del sestavljeni iz osnovnih in dodatnih gradnikov specifikacije del
 	postavka
-		osnovni opis posameznega dela
-	specifikacija
-		dodatni opis posameznega dela oziroma postavke
-	kriterij specifikacije
-		merila za oblikovanje vsebine  specifikacije 	
+		osnovna gradnik specifikacije del
+	specifikacija postavke
+		dodatni gradnik  specifikacije del	
+	kriterij specifikacije postavke
+		lastnost skupine specifikacij postavk
+	popisi del
+		sistematično urejene specifikacije del za gradnjo objekta
+	knjižnica popisov del
+		sistematično urejeni seznami specifikacij del po delih in vrstah del
+
+
+
+
+
+	splošna določila 
+		pravila vezana na izvajanje 	
+
+
+
+	knjižnica popisov del
+		urejeni seznami podrobno opisanih posameznih del, ki nastopajo pri gradnjah
+	specifikacije posameznih del
+		opisuje  vrsto posameznih del s svojimi značilnostmi
+	postavka
+		osnovna specifikacija posameznega dela
+	specifikacija postavke
+		dodatna specifikacija posameznih del
+	kriterij specifikacijes
+		merilo vsebine  specifikacije 	
+	popisna postavka
+		postavka skupaj s pripadajočimi specifikacijami postavke 
 	določila
-		opis pravil vezanih na izvedbo postavke, dela ali skupine del
+		pravila vezana na izvedbo specifikacije, postavke, dela ali skupine del
 	kriterij določila
-		merila za oblikovanje vsebine  specifikacije 
+		merilo vsebine določila
 	dela
 		skupina sorodnih postavk
 	vrsta del
@@ -105,6 +124,21 @@ Struktura mora biti tako razčlenjena , da je elemente mogoče sestavljati v pop
 
 1.4.1 Specifikacije del 
 ^^^^^^^^^^^^^^^^^^^^^^^^^
+
+Osnovni gradnik specifikacije posameznih del je postavka.
+
+
+
+
+Specifikacije del pomenijo PosameDela so specificirana - s :
+po
+
+Podrobni opisi posameznih del opisujejo načine in postopke izvajanja posameznih del , izbiro uporabljenih materialov , strojev , opreme in orodja , pogoje izvedbe ipd.
+Seznami posameznih del so sistematično urejeni glede na kriterije opisov posameznih del ter skupinam del , ki jim pripadajo.
+
+
+
+
 
 
 S standardiziranih popisov je zbirka elementov generiranih popisnih postavk za izvajanje del, ki se pojavljajo pri gradnjah. Knjižnica vsebuje sezname elementov :
