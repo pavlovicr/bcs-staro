@@ -10,23 +10,23 @@ Uvod
 ****
 28. člen pravilnika o projektni dokumentaciji pravi :
 
-**"...se za celovit opis objekta v projektu za izvedbo izdela zbirno tehnično** 
+**.... se za celovit opis objekta v projektu za izvedbo izdela zbirno tehnično** 
 **poročilo, ki vsebuje tudi skupen popis materiala in opreme z rekapitulacijo**
-**stroškov izgradnje, pri čemer je za njegovo izdelavo zadolžen koordinator..**
+**stroškov izgradnje, pri čemer je za njegovo izdelavo zadolžen koordinator ....**
 
 
 Vsebina Popisa materiala in opreme po zahtevah iz navedenega pravilnika  se le deloma prekriva z vsebino POPISOV DEL, ki v praksi pomenijo nepogrešljiv dokument pri gradnjah. V POPISIH DEL ni samo popisa materiala in opreme. V popisu del so opisane sestave gradbenih konstrukcij in njihovih delov , tehnologije izvedbe, uporabljeni materiali in na njih vezane zahteve iz zakona o gradbenih proizvodih, pravila za zagotavljanje kvaliete, pravila pri obračunu in merjenju količin, varnostne zahteve, navedbe standardov itd..
 Popisi del so pri gradnjah po sistemu " na enoto mere " ključni pri definiranju predmeta pogodbe in izračunu končne cene pogodbenih del.
 
 Kljub temu, da so popisi del pomemben del gradbene dokumentacije, Slovenija ne premore enotne metodologije za njihovo izdelavo prav tako ni javno dostopnih zbirk popisov del, ki bi nadomestili zastarele standardizirane popise del (GIPPOS, Fabrizzio, ..). Ostali so le redki in to samo za določene zvrsti del.(Skupnost za ceste).
-Zanimivo, da se je zakonodajalec zelo potrudil pri oblikovanju knjige obračunskih izmer v "pravilniku o vsebini in načinu vodenja dnevnika o izvajanju del ter o načinu označitve gradbišča ", vsebine pa kot, da bi se ustrašil.
+Zanimivo, da se je zakonodajalec zelo potrudil pri oblikovanju knjige obračunskih izmer v "pravilniku o vsebini in načinu vodenja dnevnika o izvajanju del ter o načinu označitve gradbišča ", o vsebini pa ne duha ne sluha.
 
-Prve standardizirane popise del (Fabrizzio) primerne za računalniško obdelavo smo imeli  že v letu 1980, štirideset let pozneje, v obdobju globalne standardizacije in digitalizacije pa jih ne premoremo ?   
+Pred več kot štiridesetimi leti smo bili slovenski gradbinci v svetovnem merilu pionirji tudi na področju standardiziranih popisov del, prirejenih celo za računalniško obdelavo. Danes, v obdobju globalizacije, standardizacije in digitalizacije imamo še vedno iste.   
 
 
 Cilj projekta
 *************
-Izdelati sistem priprave, urejanja in vzdrževanja knjižnice standardiziranih popisov del , ki bo sodoben, digitaliziran, dostopen prek spleta in javen ???
+Izdelati sistem priprave, urejanja in vzdrževanja knjižnice standardiziranih popisov del , ki bo sodoben, digitaliziran, dostopen prek spleta in javen po principih "open source" ???
 
 Aktivnosti in faznost
 *********************
