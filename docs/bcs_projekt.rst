@@ -26,7 +26,7 @@ Prve standardizirane popise del (Fabrizzio) primerne za računalniško obdelavo 
 
 Cilj projekta
 *************
-Izdelati sodoben sistem priprave, urejanja in vzdrževanja standardiziranih popisov del , ki bo javno dostopen prek spleta 
+Izdelati sodoben sistem priprave, urejanja in vzdrževanja javno dostopne , digitalizirane knjižnice standardiziranih popisov del dostopne prek spleta.
 
 Aktivnosti in faznost
 *********************
@@ -45,12 +45,39 @@ Aktivnosti in faznost
 
 1.1 Splošno
 ------------
-Standardizirani popisi niso nič novega, so pa v obdobju standardizacije in digitalizacije
+
+**Kaj so popisi del ?**
+
+Popisi del so sistematično urejeni seznami podrobno specificiranih posameznih del, ki se pojavljajo pri gradnjah ter pravil povezanimi z njihovo uporabo.
+
+Posamezna dela pomenijo osnovni opis del,  specifikacije pa podroben opis  načina in postopkov izvedbe, uporabljenih materialov , strojev , opreme in orodja , pogojev izvedbe ipd.
+
+V pravilih vezanih na njihovo uporabo imenovanih "določila" pa so določena pravila v zvezi z zakonodajo in standarfdi na katere se navezujejo , načinu ugotavljanja kvalitete, zagotavljanj avarnosti itd.
+
+
+
+**Kaj som standardizirani popisi del ?**
+
+S konsenzom sprejeta metodologija in vsebine ? Standardizirani za tiste, ki pristopijo k uporabi, ?
+
+
+
+ z opisi postopkov in tehnologije izvajanja del, materialov, delovnih sredstev in opreme , strojev , z opisom določil in razvrstitvijo v skupine
 
 
 
 1.2 Izhodišča
 -------------
+
+Standardizirane opise bomo ločili glede na vrste gradenj :
+		- visoke gradnej
+		- nizke gradnje
+		- hidrotehnični objekti
+Za strukturo se bomo zgledovali po skupnosti za ceste in gippos normah
+
+Struktura mora biti tako razčlenjena , da je elemente mogoče sestavljati v popisne postavke
+
+
 	
 1.3 Pomen izrazov
 -----------------
@@ -84,7 +111,7 @@ Standardizirani popisi niso nič novega, so pa v obdobju standardizacije in digi
 ^^^^^^^^^^^^^^^^^^^^^^^^^
 
 
-Knjižnica standardiziranih popisov je zbirka elementov generiranih popisnih postavk za izvajanje del, ki se pojavljajo pri gradnjah. Knjižnica vsebuje sezname elementov :
+S standardiziranih popisov je zbirka elementov generiranih popisnih postavk za izvajanje del, ki se pojavljajo pri gradnjah. Knjižnica vsebuje sezname elementov :
 	postavk ,
 	specifikacij ,
 	kriterijev specifikacij ,
