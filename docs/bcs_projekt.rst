@@ -54,7 +54,7 @@ Aktivnosti in faznost
 
 **Kaj so standardizirani popisi del ?**
 
-Konsenz investitorjev gradenj, projektantov objektov in izvajalcev del glede uporabe knjižnice popisov del kot standardizirane. ? 
+Popisi del sprejeti kot standardizirani popisi del, s konsenzom investitorjev gradenj, projektantov objektov in izvajalcev del.? 
 
 1.2 Izhodišča
 -------------
