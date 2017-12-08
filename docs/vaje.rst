@@ -1,6 +1,32 @@
-*****
-VAJE
-*****
+*******************
+VAJE GLAVNI NASLOV
+********************
+
+podnaslov za vaje 
+############################
+
+Podpodnaslov
+*************
+
+Poglavje
+========
+
+Podpoglavje
+-------------
+
+Podpodpoglavje
+
+Odstavek št 1 
+"""""""""""""
+
+Odtstavek št 2
+______________
+
+Odtsavek št 3
+
+
+
+
 
 >>> a = 1
 
@@ -17,8 +43,7 @@ Napišimo par stavkov, ki so v ločenih vrsticah.
 
 Napišimo še formulo za H\ :sub:`2`\ O 
 
-.. Črtice ob 2 se skrivajo pod 7.
-
+.. Črtice ob 2 se skrivajo pod 7. To je komentar, ki ga je treba zaključiti z dvema pikama.   
 ..
 
  
