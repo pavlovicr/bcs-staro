@@ -106,23 +106,23 @@ Popisi del sprejeti kot standardizirani popisi del, s konsenzom investitorjev gr
 Popisi del so sistematično urejene tehnične specifikacije posameznih del oziroma popisnih postavk.
 Posamezna popisna postavka je sestavljena iz postavke, ki je osnovna tehnična specifikacija posameznega dela in specifikacijami postavke, ki dodatno specificirajo posamezno delo glede na različne kriterije. 
 
-+-----------------------+------------------------+----------------------------+
-| skupina del           | gradbena dela          |                            |
-+-----------------------+------------------------+                            |
-| vrsta del             | betonska dela          |                            |
-+-----------------------+------------------------+                            |
-| dela                  | vgrajevanje betona     |                            | 
-+-----------------------+------------------------+                            |
-| postavka              | vgrajevanje betona     | kriterij                   |
-+-----------------------+------------------------+                            |
-| enota mere            | m3                     | specifikacije              |
-+-----------------------+------------------------+----------------------------+
-|specifikacija 1        |preseka 0-12 m3/m2,m1   |presek konstrukcije         |
-+-----------------------+------------------------+----------------------------+
-|specifikacija 2        |z dobavo betona C30/37  |z dobavo/ brez dobave       |
-+-----------------------+------------------------+----------------------------+
-|specifikacija 3        |XC4				     |odpornost na karbonatizacijo|
-+-----------------------+------------------------+----------------------------+
++-----------------------+------------------------+-----------------------------+
+| skupina del           | gradbena dela          |                             |
++-----------------------+------------------------+                             |
+| vrsta del             | betonska dela          |                             |
++-----------------------+------------------------+                             |
+| dela                  | vgrajevanje betona     |                             | 
++-----------------------+------------------------+                             |
+| postavka              | vgrajevanje betona     | kriterij                    |
++-----------------------+------------------------+                             |
+| enota mere            | m3                     | specifikacije               |
++-----------------------+------------------------+-----------------------------+
+|specifikacija 1        |preseka 0-12 m3/m2,m1   |presek konstrukcije          |
++-----------------------+------------------------+-----------------------------+
+|specifikacija 2        |z dobavo betona C30/37  |z dobavo/ brez dobave        |
++-----------------------+------------------------+-----------------------------+
+|specifikacija 3        |XC4				     |odpornost na karbonatizacijo |
++-----------------------+------------------------+-----------------------------+
 
 
 
