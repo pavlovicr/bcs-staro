@@ -123,6 +123,8 @@ Posamezna popisna postavka je sestavljena iz postavke, ki je osnovna tehnična s
 +-----------------------+------------------------+----------------------------+
 |specifikacija 2        |z dobavo betona C30/37  |z dobavo/ brez dobave       |
 +-----------------------+------------------------+----------------------------+
+
++-----------------------+------------------------+----------------------------+
 |specifikacija 3        |XC4				     |odpornost na karbonatizacijo|
 +-----------------------+------------------------+----------------------------+
 |specifikacija 4        |XF3                     |odpornost na zmrzovanje     |
