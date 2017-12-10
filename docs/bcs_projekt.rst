@@ -117,6 +117,8 @@ Posamezna popisna postavka je sestavljena iz postavke, ki je osnovna tehnična s
 +-----------------------+------------------------+                            |
 | enota mere            | m3                     | specifikacije              |
 +-----------------------+------------------------+----------------------------+
+
++-----------------------+------------------------+----------------------------+
 |specifikacija 1        |preseka 0-12 m3/m2,m1   |presek konstrukcije         |
 +-----------------------+------------------------+----------------------------+
 |specifikacija 2        |z dobavo betona C30/37  |z dobavo/ brez dobave       |
