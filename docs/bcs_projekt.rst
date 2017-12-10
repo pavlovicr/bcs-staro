@@ -107,15 +107,15 @@ Popisi del so sistematično urejene tehnične specifikacije posameznih del oziro
 Posamezna popisna postavka je sestavljena iz postavke, ki je osnovna tehnična specifikacija posameznega dela in specifikacijami postavke, ki dodatno specificirajo posamezno delo glede na različne kriterije. 
 
 +-----------------------+------------------------+----------------------------+
-|skupina del            |gradbena dela           |                            |
+| skupina del           | gradbena dela          |                            |
 +-----------------------+------------------------+                            |
-|vrsta del              |betonska dela           |                            |
+| vrsta del             | betonska dela          |                            |
 +-----------------------+------------------------+                            |
-|dela                   |vgrajevanje betona      |                            | 
+| dela                  | vgrajevanje betona     |                            | 
 +-----------------------+------------------------+                            |
-|postavka               |vgrajevanje betona      |kriterij                    |
+| postavka              | vgrajevanje betona     | kriterij                   |
 +-----------------------+------------------------+                            |
-|enota mere             |m3                      |specifikacije               |
+| enota mere            | m3                     | specifikacije              |
 +-----------------------+------------------------+----------------------------+
 |specifikacija 1        |preseka 0-12 m3/m2,m1   |presek konstrukcije         |
 +-----------------------+------------------------+----------------------------+
