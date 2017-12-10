@@ -106,6 +106,9 @@ Popisi del sprejeti kot standardizirani popisi del, s konsenzom investitorjev gr
 Popisi del so sistematično urejene tehnične specifikacije posameznih del oziroma popisnih postavk.
 Posamezna popisna postavka je sestavljena iz postavke, ki je osnovna tehnična specifikacija posameznega dela in specifikacijami postavke, ki dodatno specificirajo posamezno delo glede na različne kriterije. 
 
+
+Primer :
+
 +-----------------------+------------------------+-----------------------------+
 | skupina del           | gradbena dela          |                             |
 +-----------------------+------------------------+                             |
