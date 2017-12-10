@@ -103,8 +103,10 @@ Popisi del sprejeti kot standardizirani popisi del, s konsenzom investitorjev gr
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
 **Tehnične specifikacije del opredeljujejo vrsto del , načine in postopke izvajanja , izbiro uporabljenih materialov , strojev , opreme in orodja ter pogoje izvedbe del, ipd.**
-Popisi del so sistematično urejene tehnične specifikacije posameznih del oziroma popisnih postavk.
-Posamezna popisna postavka je sestavljena iz postavke, ki je osnovna tehnična specifikacija posameznega dela in specifikacijami postavke, ki dodatno specificirajo posamezno delo glede na različne kriterije. 
+	* Popisi del so sistematično urejene tehnične specifikacije posameznih del oziroma popisnih postavk.
+	* Posamezna popisna postavka je sestavljena iz postavke, ki je osnovna tehnična specifikacija posameznega dela in specifikacij postavke, ki dodatno definirajo predmet posameznega  dela.
+	* Kriteriji specifikacij razvrščajo specifikacije v skupine, po namenu kriterija.
+	* Postavkam pripadajo dela, delom vrste del, vrstam del skupine del. 
 
 
 Primer :
