@@ -127,7 +127,7 @@ Posamezna popisna postavka je sestavljena iz postavke, ki je osnovna tehnična s
 +-----------------------+------------------------+-----------------------------+
 
 
-
++-----------------------+------------------------+----------------------------+
 |specifikacija 4        |XF3                     |odpornost na zmrzovanje     |
 +-----------------------+------------------------+----------------------------+
 |specifikacija 5		|PVII					 |vodonepropustnost           |
