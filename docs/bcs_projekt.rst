@@ -102,35 +102,48 @@ Popisi del sprejeti kot standardizirani popisi del, s konsenzom investitorjev gr
 1.4.1 Tehnične specifikacije del 
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
-**Tehnične specifikacije del opredeljujejo načine in postopke izvajanja del , izbiro uporabljenih materialov , strojev , opreme in orodja ter pogoje izvedbe del, ipd.**
+**Tehnične specifikacije del opredeljujejo vrsto del , načine in postopke izvajanja , izbiro uporabljenih materialov , strojev , opreme in orodja ter pogoje izvedbe del, ipd.**
+Popisi del so sistematično urejene tehnične specifikacije posameznih del oziroma popisnih postavk.
+Posamezna popisna postavka je sestavljena iz postavke, ki je osnovna tehnična specifikacija posameznega dela in specifikacijami postavke, ki dodatno specificirajo posamezno delo glede na različne kriterije. 
+
++--------------------------+-------------------+----------------+
+|skupina del               | gradbena dela     |                |
++--------------------------+-------------------+                |
+|vrsta del                 | betonska dela     | kriterij       |
++----------------------------------------------+ specifikacije  |
+|dela                      | vgrajevanje betona|                |
++--------------------------+-------------------+                |
+|postavka                  | vgrajevanje betona|                |
++--------------------------+-------------------+----------------+
+enota mere                   m3
+-----------------
+specifikacija 1 
+-----------------
+specifikacija 2
+-----------------
+specifikacija 3
+-----------------
+specifikacija 4
+-----------------
+specifikacija 5
+-----------------
+specifikacija 6
+-----------------
+specifikacija 7
+--------------------
+specifikacija 8
+---------------------
+specifikacija 9
+--------------------
+specifikacija 10
+-------------------
+specifikacija 11
+------------------
 
 
 
 
-Popise sestavljajo seznami popisnih postavk, popisne postavke pa postavke z osnovno specifikacijo dela in dodatnimi specifikacijami.
 
-
-ne postavke o postavko sestavlajo osnovna specifikacija imenovana postavka in dodatne specivikacije , imenovane specifikacije.
-a popisna postavka je zgrajena osnovne Posamezna popisna postavka 
-
-
-
-
-
-
-
- Osnovni gradnik specifikacije posameznih del je postavka.
-Specifikacija postavke dodatno opisuje postavko glede na kriterij postavke.
-
-
-entov :avk ,	specifikacij ,
-	kriterijev specifikacij ,
-iz katerih so popisne postavke sestavljene in sezname
-	del  
-	in vrste del, 
-v okviru katerih se popisne postavke združujejo. 
-
-Vsaki postavki pripada več specifikacij , ki podrobneje opisujejo predmet in pogoje dela postavke. 
 
 Popisne postavke sestavljajo postavke s specifikacijami, ki jim pripadajo in podrobneje opisujejo postavko. Specifikacije so organizirane v  okviru postavk in del , ki jim pripadajo ter po kriteriju, ki opredeljuje namen specifikacije.   
 Popisne postavke so organizirane v okviru del in vrste del , ki jim pripadajo.
