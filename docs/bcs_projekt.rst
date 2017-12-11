@@ -118,17 +118,17 @@ Primer :
 | vrsta del             | betonska dela          |                             |                |
 +-----------------------+------------------------+                             |                |
 | dela                  | vgrajevanje betona     |                             |                |
-+-----------------------+------------------------+                             |                |
-| postavka              | vgrajevanje betona     | kriterij                    |skupina         |
-+-----------------------+------------------------+                             |specifikacije   |
++-----------------------+------------------------+                             | skupina        |
+| postavka              | vgrajevanje betona     | kriterij                    |                |
++-----------------------+------------------------+                             | specifikacije  |
 | enota mere            | m3                     | specifikacije               |                |
 +-----------------------+------------------------+-----------------------------+----------------+
 |specifikacija 1        |preseka 0-12 m3/m2,m1   |presek konstrukcije          |                |
 +-----------------------+------------------------+-----------------------------+----------------+
 |specifikacija 2        |z dobavo betona C30/37  |z dobavo/ brez dobave        |                |
 +-----------------------+------------------------+-----------------------------+----------------+
-|specifikacija 3        |XC4                     |odpornost na karbonatizacijo |razredi ,       |
-+-----------------------+------------------------+-----------------------------+stopnje         |
+|specifikacija 3        |XC4                     |odpornost na karbonatizacijo |razredi         |
++-----------------------+------------------------+-----------------------------+                |
 |specifikacija 4        |XF3                     |odpornost na zmrzovanje      |izpostavljenosti|
 +-----------------------+------------------------+-----------------------------+----------------+
 |specifikacija 5        |PVII                    |vodonepropustnost            |                |
@@ -138,10 +138,10 @@ Primer :
 |specifikacija 7        |S4                      |konsistenca betona           |                |
 +-----------------------+------------------------+-----------------------------+----------------+
 |specifikacija 8        |VB3                     |viden beton                  |  razred        |
-+-----------------------+------------------------+-----------------------------+  vidne         |
-|specifikacija 9        |P3                      |ravnost                      |  površine      |
 +-----------------------+------------------------+-----------------------------+                |
-|specifikacija 10       |T3                      |tekstura                     |                |
+|specifikacija 9        |P3                      |ravnost                      |  vidne         |
++-----------------------+------------------------+-----------------------------+                |
+|specifikacija 10       |T3                      |tekstura                     |  površine      |
 +-----------------------+------------------------+-----------------------------+                |
 |specifikacija 11       |C30                     |barvno odstopanje            |                |
 +-----------------------+------------------------+-----------------------------+----------------+
