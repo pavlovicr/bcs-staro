@@ -131,17 +131,17 @@ Primer :
 +-----------------------+------------------------+-----------------------------+
 |specifikacija 4        |XF3                     |odpornost na zmrzovanje      |
 +-----------------------+------------------------+-----------------------------+
-|specifikacija 5	|PVII			 |vodonepropustnost            |
+|specifikacija 5        |PVII                    |vodonepropustnost            |
 +-----------------------+------------------------+-----------------------------+
-|specifikacija 6	|0-16 mm		 |max. zrno                    |
+|specifikacija 6        |0-16 mm                 |max. zrno                    |
 +-----------------------+------------------------+-----------------------------+
-|specifikacija 7	|S4			 |konsistenca betona           |
+|specifikacija 7        |S4                      |konsistenca betona           |
 +-----------------------+------------------------+-----------------------------+
-|specifikacija 8        |VB3			 |viden beton                  |
+|specifikacija 8        |VB3                     |viden beton                  |
 +-----------------------+------------------------+-----------------------------+
-|specifikacija 9        |P3			 |ravnost                      |
+|specifikacija 9        |P3                      |ravnost                      |
 +-----------------------+------------------------+-----------------------------+
-|specifikacija 10       |T3			 |tekstura                     |
+|specifikacija 10       |T3                      |tekstura                     |
 +-----------------------+------------------------+-----------------------------+
 |specifikacija 11       |C30                     |barvno odstopanje            |
 +-----------------------+------------------------+-----------------------------+
