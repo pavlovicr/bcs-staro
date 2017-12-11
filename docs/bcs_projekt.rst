@@ -104,28 +104,29 @@ Popisi del sprejeti kot standardizirani popisi del, s konsenzom investitorjev gr
 
 **Tehnične specifikacije del opredeljujejo vrsto del , načine in postopke izvajanja , izbiro uporabljenih materialov , strojev , opreme in orodja ter pogoje izvedbe del, ipd.**
 	* Popisi del so sistematično urejene tehnične specifikacije posameznih del oziroma popisnih postavk.
-	* Posamezna popisna postavka je sestavljena iz postavke, ki je osnovna tehnična specifikacija posameznega dela in specifikacij postavke, ki dodatno definirajo predmet posameznega  dela.
+	* Posamezna popisna postavka je sestavljena iz postavke, ki je osnovna tehnična specifikacija posameznega dela in specifikacij postavke, ki popisno postavko -podrobneje definirajo predmet posameznega  dela.
 	* Kriteriji specifikacij razvrščajo specifikacije v skupine, po namenu kriterija.
-	* Postavkam pripadajo dela, delom vrste del, vrstam del skupine del. 
+	* Postavkam pripadajo dela, delom vrste del, vrstam del skupine del.
+	* Kriterij  
 
 
 Primer :
-
-+-----------------------+------------------------+-----------------------------+
-| skupina del           | gradbena dela          |                             |
-+-----------------------+------------------------+                             |
-| vrsta del             | betonska dela          |                             |
-+-----------------------+------------------------+                             |
-| dela                  | vgrajevanje betona     |                             | 
-+-----------------------+------------------------+                             |
-| postavka              | vgrajevanje betona     | kriterij                    |
-+-----------------------+------------------------+                             |
-| enota mere            | m3                     | specifikacije               |
-+-----------------------+------------------------+-----------------------------+
-|specifikacija 1        |preseka 0-12 m3/m2,m1   |presek konstrukcije          |
-+-----------------------+------------------------+-----------------------------+
-|specifikacija 2        |z dobavo betona C30/37  |z dobavo/ brez dobave        |
-+-----------------------+------------------------+-----------------------------+
+ 
++-----------------------+------------------------+-----------------------------+-----------------+
+| skupina del           | gradbena dela          |                             |                 |            
++-----------------------+------------------------+                             |                 |
+| vrsta del             | betonska dela          |                             |                 |
++-----------------------+------------------------+                             |                 |
+| dela                  | vgrajevanje betona     |                             |                 |
++-----------------------+------------------------+                             |                 |
+| postavka              | vgrajevanje betona     | kriterij                    |skupina          |
++-----------------------+------------------------+                             |specifikacije    |
+| enota mere            | m3                     | specifikacije               |                 |
++-----------------------+------------------------+-----------------------------+-----------------+
+|specifikacija 1        |preseka 0-12 m3/m2,m1   |presek konstrukcije          |		 |
++-----------------------+------------------------+-----------------------------+-----------------+
+|specifikacija 2        |z dobavo betona C30/37  |z dobavo/ brez dobave        |                 |
++-----------------------+------------------------+-----------------------------+-----------------+
 |specifikacija 3        |XC4                     |odpornost na karbonatizacijo |
 +-----------------------+------------------------+-----------------------------+
 |specifikacija 4        |XF3                     |odpornost na zmrzovanje      |
@@ -153,9 +154,9 @@ Primer :
 Popisne postavke sestavljajo postavke s specifikacijami, ki jim pripadajo in podrobneje opisujejo postavko. Specifikacije so organizirane v  okviru postavk in del , ki jim pripadajo ter po kriteriju, ki opredeljuje namen specifikacije.   
 Popisne postavke so organizirane v okviru del in vrste del , ki jim pripadajo.
 
-Popisne postavke niso organizirane v seznamih temveč jih sestavljamo modularno. 
 Knjižnica  pri gradnja , ki nastopajo pri gradnjah. Postavka je jedro popisne postavke in sama po sebi opredeljuje osnovni predmet dela in enoto mere.
-Specifikacije podrobneje definirajo postavko (prednmet dela)in pogoje izvedbe. Specifikacije so organizirane v okviru posameznih skupin , ki jih imenujemo kriterij specifikacije.
+Specifikacije podrobneje definirajo postavko (prednmet dela)in pogoje izvedbe. Specifikacije so organizirane v okviru posa
+Popisne postavke niso organizirane v seznamih temveč jih sestavljamo modularno. meznih skupin , ki jih imenujemo kriterij specifikacije.
 Postavke s specifikacijami tvorijo popisne postavke, ki jih sestavljamo modularno.
 
 1.4.2 Splošna in posebna določila
@@ -227,3 +228,4 @@ in spet normalen stavek
 
 
 
+**
