@@ -78,8 +78,10 @@ Popisi del sprejeti kot standardizirani popisi del, s konsenzom investitorjev gr
 		osnovna specifikacija posameznega dela
 	specifikacija
 		dodatna specifikacija posameznega dela	
-	kriterij specifikacije 
-		sorodna skupina specifikacij postavk
+	vrsta specifikacije 
+		kriterij za določanje specifikacije 
+	skupina vrste specifikacije
+		skupina , ki ji pripada vrsta	
 	dela
 		ime skupine sorodnih postavk
 	vrsta del
@@ -88,8 +90,8 @@ Popisi del sprejeti kot standardizirani popisi del, s konsenzom investitorjev gr
 		pravila vezana na izvajanje skupine del
 	posebna določila
 		pravila vezana na izvajanje posameznih del
-	kriterij določila
-		sorodna skupina določil		 	
+	vrsta določila
+		kriterij vsebine določila		 	
 
 
 1.4 Vsebina
@@ -114,7 +116,7 @@ Primer :
 
 
 +-----------------------------------------------------------------------------------------------+----------+-------------------+-----------------+
-|      specifikacije                                                                            | določilo | kriterij določila | skupina določila|        
+|      specifikacije                                                                            | določilo | vrsta    določila | skupina določila|        
 +-----------------------+------------------------+-----------------------------+----------------+----------+-------------------+-----------------+
 | skupina del           | gradbena dela          |                             |                |splošna   | splošne zahteve   |                 |       
 +-----------------------+------------------------+                             |                +----------+-------------------+                 |
@@ -122,7 +124,7 @@ Primer :
 +-----------------------+------------------------+                             |                +----------+-------------------+                 |
 | dela                  | vgrajevanje betona     |                             |                |          |                   |                 |
 +-----------------------+------------------------+                             | skupina        | posebna 2|                   |                 |
-| postavka              | vgrajevanje betona     | kriterij                    |                |          |                   |                 |
+| postavka              | vgrajevanje betona     | vrsta                       |                |          |                   |                 |
 +-----------------------+------------------------+                             | specifikacije  |          |                   |                 |
 | enota mere            | m3                     | specifikacije               |                |          |                   |                 |
 +-----------------------+------------------------+-----------------------------+----------------+----------+                   |                 |
@@ -134,7 +136,7 @@ Primer :
 +-----------------------+------------------------+-----------------------------+                |          |                   |                 |
 |specifikacija 4        |XF3                     |odpornost na zmrzovanje      |izpostavljenosti|1026      |                   |                 |
 +-----------------------+------------------------+-----------------------------+----------------+----------+                   |                 |
-|specifikacija 5        |PVII                    |vodonepropustnost            |                |          |                   |                 |
+|specifikacija 5        |PVII                    |vodoneprepustnost            |                |          |                   |                 |
 +-----------------------+------------------------+-----------------------------+                |posebna 8 |                   |                 | 
 |specifikacija 6        |0-16 mm                 |max. zrno                    | splošno        |          |                   |                 |
 +-----------------------+------------------------+-----------------------------+                |          |                   |                 |
