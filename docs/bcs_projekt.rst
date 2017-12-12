@@ -63,7 +63,7 @@ Popisi del sprejeti kot standardizirani popisi del, s konsenzom investitorjev gr
 			- visoke gradnej
 			- nizke gradnje
 			- hidrotehnični objekti
-		* Struktura in vsebine po zgledu SKUPNOST ZA CESTE 2008
+		* Struktura in vsebine po zgledu TSC gov
 		* Strukturo razčlenjena modularno ??
 	
 1.3 Pomen izrazov
@@ -78,14 +78,22 @@ Popisi del sprejeti kot standardizirani popisi del, s konsenzom investitorjev gr
 		osnovna specifikacija posameznega dela
 	specifikacija
 		dodatna specifikacija posameznega dela	
-	vrsta specifikacije 
-		kriterij za določanje specifikacije 
-	skupina vrste specifikacije
-		skupina , ki ji pripada vrsta	
+	kriterij specifikacije 
+		merilo za opredelitev specifikacije 
+	področje kriterija
+			področje, ki ji kriterij pripada	
+	skupina področja kriterija
+			skupina, ki ji področje pripada
+
+
+
 	dela
-		ime skupine sorodnih postavk
+		skupine sorodnih postavk
 	vrsta del
-		ime skupine sorodnih del 
+		skupine sorodnih del 
+	skupina del
+
+
 	splošna določila 
 		pravila vezana na izvajanje skupine del
 	posebna določila
@@ -112,25 +120,33 @@ Popisi del sprejeti kot standardizirani popisi del, s konsenzom investitorjev gr
 	* Kriterij  
 
 
-Primer :
+Primer popisne postavke :
+
+A. GRADBENA DELA
+A/1 Betonska dela
+A/1.1 vgrajevanje betona
+A/1.1.1 Dobava in vgrajevanje betona C30/37																 
+
+
+
 
 
 +-----------------------------------------------------------------------------------------------+----------+-------------------+-----------------+
 |      specifikacije                                                                            | določilo | vrsta    določila | skupina določila|        
-+-----------------------+------------------------+-----------------------------+----------------+----------+-------------------+-----------------+
++=======================+========================+=============================+================+==========+===================+=================+
 | skupina del           | gradbena dela          |                             |                |splošna   | splošne zahteve   |                 |       
 +-----------------------+------------------------+                             |                +----------+-------------------+                 |
 | vrsta del             | betonska dela          |                             |                | posebna 1| obračun           |                 |
 +-----------------------+------------------------+                             |                +----------+-------------------+                 |
 | dela                  | vgrajevanje betona     |                             |                |          |                   |                 |
-+-----------------------+------------------------+                             | skupina        | posebna 2|                   |                 |
-| postavka              | vgrajevanje betona     | vrsta                       |                |          |                   |                 |
++-----------------------+------------------------+                             | področje       | posebna 2|                   |                 |
+| postavka              | vgrajevanje betona     | kriterj                     |                |          |                   |                 |
 +-----------------------+------------------------+                             | specifikacije  |          |                   |                 |
 | enota mere            | m3                     | specifikacije               |                |          |                   |                 |
 +-----------------------+------------------------+-----------------------------+----------------+----------+                   |                 |
 |specifikacija 1        |preseka 0-12 m3/m2,m1   |presek konstrukcije          |                | posebna3 |                   |                 |
 +-----------------------+------------------------+-----------------------------+----------------+          |                   |                 |
-|specifikacija 2        |z dobavo betona C30/37  |z dobavo/ brez dobave        |                |          |                   |                 |
+|specifikacija 2        |z dobavo betona C30/37  |trdnostni razred             |                |          |                   |                 |
 +-----------------------+------------------------+-----------------------------+----------------+----------+                   |                 |
 |specifikacija 3        |XC4                     |odpornost na karbonatizacijo |razredi         |SIST EN   |                   |                 |
 +-----------------------+------------------------+-----------------------------+                |          |                   |                 |
@@ -168,6 +184,13 @@ Postavke s specifikacijami tvorijo popisne postavke, ki jih sestavljamo modularn
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
 ** Določila opredeljujejo pravila vezana na merjenje in obračun specificiranih del, zagotavljanje kakovosti, izvajanje varnostnih ukrepov ter spoštovanje zahtev zakonodaje in standardov za specificirana dela, ipd.**
+
+
+
+
+
+
+
 
 
 
