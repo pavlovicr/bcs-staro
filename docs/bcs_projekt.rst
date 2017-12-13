@@ -114,10 +114,13 @@ Popisi del sprejeti kot standardizirani popisi del, s konsenzom investitorjev gr
 
 **Tehnične specifikacije del opredeljujejo vrsto del , načine in postopke izvajanja , izbiro uporabljenih materialov , strojev , opreme in orodja ter pogoje izvedbe del, ipd.**
 	* Popisi del so sistematično urejene tehnične specifikacije posameznih del oziroma popisnih postavk.
+	Sistematično pomeni, da so posamezna dela zbrana po delih , dela po vrstah del in vrste del po skupinah del. 
+
 	* Posamezna popisna postavka je sestavljena iz postavke, ki je osnovna tehnična specifikacija posameznega dela in specifikacij postavke, ki popisno postavko -podrobneje definirajo predmet posameznega  dela.
 	* Kriteriji specifikacij razvrščajo specifikacije v skupine, po namenu kriterija.
 	* Postavkam pripadajo dela, delom vrste del, vrstam del skupine del.
 	* Kriterij  
+
 
 
 Primer popisne postavke :
@@ -126,9 +129,6 @@ A. GRADBENA DELA
 A/1 Betonska dela
 A/1.1 vgrajevanje betona
 A/1.1.1 Dobava in vgrajevanje betona C30/37																 
-
-
-
 
 
 +-------------------------------------------------------------------------------------------------------------+----------+-------------------+-----------------+
@@ -141,7 +141,7 @@ A/1.1.1 Dobava in vgrajevanje betona C30/37
 | dela                  | vgrajevanje betona     |                             |                | skupina     |          |                   |                 |
 +-----------------------+------------------------+                             | področje       |             | posebna 2|                   |                 |
 | postavka              | vgrajevanje betona     | kriterj                     |                | področja    |          |                   |                 |
-+-----------------------+------------------------+                             | specifikacije  |             |          |                   |                 |
++-----------------------+------------Dela se združujejo po vrsti del ------------+                             | specifikacije  |             |          |                   |                 |
 | enota mere            | m3                     | specifikacije               |                |specifikacije|          |                   |                 |
 +-----------------------+------------------------+-----------------------------+----------------+-------------+----------+                   |                 |
 |specifikacija 1        |preseka 0-12 m3/m2,m1   |presek konstrukcije          |                |             | posebna3 |                   |                 |
@@ -149,8 +149,11 @@ A/1.1.1 Dobava in vgrajevanje betona C30/37
 |specifikacija 2        |z dobavo betona C30/37  |trdnostni razred             |                |             |          |                   |                 |
 +-----------------------+------------------------+-----------------------------+----------------+-------------+----------+                   |                 |
 |specifikacija 3        |XC4                     |odpornost na karbonatizacijo |razredi         |             | SIST EN  |                   |                 |
+
 +-----------------------+------------------------+-----------------------------+                |             |          |                   |                 |
-|specifikacija 4        |XF3                     |odpornost na zmrzovanje      |izpostavljenosti|             |1026      |                   |                 |
+|specifikacija 4        |XF3                     |odpornost na zmrzovanje      |izpostavljenosti|             |1
+
+026      |                   |                 |
 +-----------------------+------------------------+-----------------------------+----------------+-------------+----------+                   |                 |
 |specifikacija 5        |PVII                    |vodoneprepustnost            |                |             |          |                   |                 |
 +-----------------------+------------------------+-----------------------------+                |             |posebna 8 |                   |                 | 
@@ -168,9 +171,99 @@ A/1.1.1 Dobava in vgrajevanje betona C30/37
 +-----------------------+------------------------+-----------------------------+----------------+-------------+----------+-------------------+-----------------+
 
 
-===========	 ===========   ===========  ========	=============	================
-Postavka     enota mere      dela         spec1         spec2            spec n 
-===========  ===========   ===========	========	=============	================
+
+
+
+struktura in medsebojne zveze
+^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+
+Postavka je osnovna specifikacija posameznega dela in ima enoto mere.Sama zase nam pove samo za kakšno delo gre in nič več. Na primer "izkop jarkov".
+
+Postavko natančno opišejo dodatne specifikacije, ki posameznim postavkam pripadajo. Specifikacije dodatno opisujejo postavke glede na sestavo konstrukcij in njihovih delov, način, pogoje in postopke izvajanja del, materiale ipd . Izkop jarkov "globine do 2m , v terenu III. ktg " .
+
+ Dodatne specifikacije so oblikovane glede na razne kriterije. Kriterij "globine izkopa" , "kriterij kategorije terena " ipd. Kriteriji specifikacije so lahko zbrani po področjih."pogoji dela", "material " ipd. 
+Posamezni postavki pridapa več specifikacij, posamezna specifikacija pa lahko pripada večim različnim posameznim postavkam.
+
+
+Posamezni postavki pripadajo tudi "dela" iz katerih izhaja. Eni postavki ena "dela", enim "delom" pa več postavk.
+
+vrsta del pripada družini skupina del
+dela pripadajo družini vrsta del 
+
+
+
+
+
+
+
+POSTAVKE LAHKO IZBIRAMO IN FILTRIRAMO GLEDE NA 
+SPECIFIKACIJE LAHKO IZBIRAMO 
+
+                    
++------------------------+------------------------+-------+
+| vrsta del              | skupina del            | n : 1 |
++------------------------+------------------------+-------+
+| dela                   | vrsta del              | n : 1 |
++------------------------+------------------------+-------+
+| postavka               | dela                   | n : 1 |
++------------------------+------------------------+-------+
+| specifikacija          | postavka               | n : n |
++------------------------+------------------------+-------+
+| kriterij specifikacije | specifikacije          | 1 : n |
++------------------------+------------------------+-------+
+| področje specifikacije | kriterij specifikacije | 1 : n |
++------------------------+------------------------+-------+
+| splošna določila       | skupina del            | n : 1 |
++------------------------+------------------------+-------+
+| splošna določila       | dela                   | n : 1 |
++------------------------+------------------------+-------+
+| splošna določila       | postavka               | n : 1 |
++------------------------+------------------------+-------+
+| splošna določila       | specifikacija          | n : 1 |
++------------------------+------------------------+ ------+
+| splošna določila       |   vrsta  določila      | n : 1 |
++------------------------+------------------------+-------+
+| vrsta  določila vv     | skupina določila       | n : 1 |
++------------------------+------------------------+-------+
+
+''
+
+
+
+
+
+določila
+===========
+
+dela 	posebna določila 1	posebna določila 2 posebna določila n
+
+
+posebna določila n    kriterij določiposameznim la 	področ
+je Določila 
+
+
+
+
+
+
+
+
+
+
+
+POSTAVKE LAHKO IZBIRAMO IN FILTRIRAMO GLEDE NA 
+SPECIFIKACIJE LAHKO IZBIRAMO 
+
+
+
+
+
+
+
+
+
+
+
 
 
 
