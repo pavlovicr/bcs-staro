@@ -190,11 +190,21 @@ dela pripadajo družini vrsta del
 
 
 
+Popisne postavke sestavljajo postavke s specifikacijami, ki jim pripadajo in podrobneje opisujejo postavko.   
+Popisne postavke so organizirane v okviru del in vrste del , ki jim pripadajo.
+
+Postavka je jedro popisne postavke in sama po sebi opredeljuje osnovni predmet dela in enoto mere.
+Specifikacije podrobneje definirajo postavko (prednmet dela)in pogoje izvedbe. 
+
+
+Postavke s specifikacijami tvorijo popisne postavke, ki jih sestavljamo modularno.
+Postavke izbiramo, sortiramo,zbiramo
 
 
 
-POSTAVKE LAHKO IZBIRAMO IN FILTRIRAMO GLEDE NA 
-SPECIFIKACIJE LAHKO IZBIRAMO 
+
+Relacije :
+^^^^^^^^^^  
 
                     
 +------------------------+------------------------+-------+
@@ -223,58 +233,8 @@ SPECIFIKACIJE LAHKO IZBIRAMO
 | vrsta  določila vv     | skupina določila       | n : 1 |
 +------------------------+------------------------+-------+
 
-9č
 
 
-
-
-določila
-===========
-
-dela 	posebna določila 1	posebna določila 2 posebna določila n
-
-
-posebna določila n    kriterij določiposameznim la 	področ
-je Določila 
-
-
-
-
-
-
-
-
-
-
-
-POSTAVKE LAHKO IZBIRAMO IN FILTRIRAMO GLEDE NA 
-SPECIFIKACIJE LAHKO IZBIRAMO 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-Popisne postavke sestavljajo postavke s specifikacijami, ki jim pripadajo in podrobneje opisujejo postavko. Specifikacije so organizirane v  okviru postavk in del , ki jim pripadajo ter po kriteriju, ki opredeljuje namen specifikacije.   
-Popisne postavke so organizirane v okviru del in vrste del , ki jim pripadajo.
-
-Knjižnica  pri gradnja , ki nastopajo pri gradnjah. Postavka je jedro popisne postavke in sama po sebi opredeljuje osnovni predmet dela in enoto mere.
-Specifikacije podrobneje definirajo postavko (prednmet dela)in pogoje izvedbe. Specifikacije so organizirane v okviru posa
-Popisne postavke niso organizirane v seznamih temveč jih sestavljamo modularno. meznih skupin , ki jih imenujemo kriterij specifikacije.
-Postavke s specifikacijami tvorijo popisne postavke, ki jih sestavljamo modularno.
 
 1.4.2 Splošna in posebna določila
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
@@ -282,18 +242,7 @@ Postavke s specifikacijami tvorijo popisne postavke, ki jih sestavljamo modularn
 ** Določila opredeljujejo pravila vezana na merjenje in obračun specificiranih del, zagotavljanje kakovosti, izvajanje varnostnih ukrepov ter spoštovanje zahtev zakonodaje in standardov za specificirana dela, ipd.**
 
 
-
-
-
-
-
-
-
-
-
 Določila niso nič drugega kot specifikacije specifikacij, postavk, del in vrst del ter določila, ki veljajo za gradnje nasplošno.Za razliko od tehnično tehnoloških specifikacij ta določajo pravila glede uporabe zakonodaje, obračunov, varnosti, kakovosti ipd.
-
-
 
 
 
@@ -311,45 +260,3 @@ Določila niso nič drugega kot specifikacije specifikacij, postavk, del in vrst
 
 
 
-
-
-
-
-1.7 Vsebina
------------
-
-Dokumentacija je vsebinsko razdeljena na tri dele.
-
-* specifikacije del
-* splošna in posebna določila
-* popisi del
-
-.. note:: Sklop " specifikacije posameznih del " predstavlja knjižnico podrobnih opisov tehnologije izvedbe posameznih del pri gradnjah objektov, pogojev vezanih na izvajanja posameznih del in uporabljene materiale.
-.. note::
-V sklopu "splošna in posebna določila " so opredeljene skupine (VRSTA DEL, SKUPINA del po katerih združujemo posamezna dela in določila vezana na  način obračuna, merjenja , zahteve glede kvalitete skupin del, vrste del in posameznih specifikacij
-.. rubric:: Sklop "popisi del " je vezan na konkreten primer gradnje objekta, vrsto gradnje, skupino del ali....
-
-
-
-
-
-
-
-
-
-
-| strumno in veselo
-| drug za drugim v ravni vrsti
-| zdaj gremo na delo
-
-To je normalen stavek do sem::
-
-	od tu naprej je koda
-
-in spet normalen stavek	
-
-.. warning:: ratatata)
-
-
-
-**
