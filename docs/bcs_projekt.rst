@@ -141,7 +141,7 @@ A/1.1.1 Dobava in vgrajevanje betona C30/37
 | dela                  | vgrajevanje betona     |                             |                | skupina     |          |                   |                 |
 +-----------------------+------------------------+                             | področje       |             | posebna 2|                   |                 |
 | postavka              | vgrajevanje betona     | kriterj                     |                | področja    |          |                   |                 |
-+-----------------------+------------Dela se združujejo po vrsti del ------------+                             | specifikacije  |             |          |                   |                 |
++-----------------------+------------------------+                             | specifikacije  |             |          |                   |                 |
 | enota mere            | m3                     | specifikacije               |                |specifikacije|          |                   |                 |
 +-----------------------+------------------------+-----------------------------+----------------+-------------+----------+                   |                 |
 |specifikacija 1        |preseka 0-12 m3/m2,m1   |presek konstrukcije          |                |             | posebna3 |                   |                 |
@@ -149,11 +149,8 @@ A/1.1.1 Dobava in vgrajevanje betona C30/37
 |specifikacija 2        |z dobavo betona C30/37  |trdnostni razred             |                |             |          |                   |                 |
 +-----------------------+------------------------+-----------------------------+----------------+-------------+----------+                   |                 |
 |specifikacija 3        |XC4                     |odpornost na karbonatizacijo |razredi         |             | SIST EN  |                   |                 |
-
 +-----------------------+------------------------+-----------------------------+                |             |          |                   |                 |
-|specifikacija 4        |XF3                     |odpornost na zmrzovanje      |izpostavljenosti|             |1
-
-026      |                   |                 |
+|specifikacija 4        |XF3                     |odpornost na zmrzovanje      |izpostavljenosti|             |          |                   |                 |d
 +-----------------------+------------------------+-----------------------------+----------------+-------------+----------+                   |                 |
 |specifikacija 5        |PVII                    |vodoneprepustnost            |                |             |          |                   |                 |
 +-----------------------+------------------------+-----------------------------+                |             |posebna 8 |                   |                 | 
@@ -226,8 +223,7 @@ SPECIFIKACIJE LAHKO IZBIRAMO
 | vrsta  določila vv     | skupina določila       | n : 1 |
 +------------------------+------------------------+-------+
 
-''
-
+9č
 
 
 
