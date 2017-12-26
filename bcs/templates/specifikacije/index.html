@@ -1,0 +1,26 @@
+{% extends "base.html" %}
+
+{% block content %}
+
+
+<h1>POPISI</h1>
+
+{% load static %}
+<img src="{% static 'images/fantje5.jpg' %}" alt="Slika" style="width:730px;height:400px;"/>
+
+  <p><em> " Delaj to, v kar verjameš, in verjemi v to, kar počneš. Vse drugo je tratenje energije in časa". (Nisargadatta) </em></p>
+
+<h2>Knjižnica specifikacij za popise del</h2>
+
+  <p>Statistika, obdelani elementi : </p>
+  <ul>
+    <li><strong>Postavke:</strong> {{ stej_postavke }}</li>
+    <li><strong>Specifikacije :</strong> {{ stej_specifikacije }}</li>
+    <li><strong>Predmet specifikacije:</strong> {{ stej_predmet_specifikacije }}</li>
+    <li><strong>Dela:</strong> {{ stej_dela }}</li>
+  </ul>
+
+
+
+
+{% endblock %}
