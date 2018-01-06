@@ -7,9 +7,9 @@ class Dela(Osnova):
         return self.opis
 
     def get_absolute_url(self):
-        """
-        Vrne url za Dela.
-        """
+#       """
+#        Vrne url za Dela.
+#        """
         return reverse('dela-detail', args=[str(self.id)])
 
 

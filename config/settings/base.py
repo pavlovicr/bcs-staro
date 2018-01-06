@@ -55,7 +55,8 @@ THIRD_PARTY_APPS = [
 LOCAL_APPS = [
     # custom users app
     'bcs.users.apps.UsersConfig',
-    'specifikacije'
+    'specifikacije',
+    'osnova',
     # Your stuff: custom apps go here
 ]
 

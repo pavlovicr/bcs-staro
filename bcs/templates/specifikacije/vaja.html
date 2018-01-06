@@ -1,0 +1,28 @@
+{% extends "base.html" %}
+
+{% block content %}
+
+
+<h1>POPISI</h1>
+
+{% load static %}
+
+  <p><em> " ne se hecat" </em></p>
+
+<h2>Knjižnica specifikacij za popise del</h2>
+
+  <p>Statistika, obdelani elementi : </p>
+  <ul>
+    <li><strong>Postavke:</strong> {{ stej_postavke }}</li>
+    <li><strong>Specifikacije :</strong> {{ stej_specifikacije }}</li>
+    <li><strong>Predmet specifikacije:</strong> {{ stej_predmet_specifikacije }}</li>
+    <li><strong>Dela:</strong> {{ stej_dela }}</li>
+  </ul>
+
+
+
+
+{% endblock %}
+
+
+
