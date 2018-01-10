@@ -53,7 +53,3 @@ class Specifikacija(Osnova):
         Returns the url to access a particular book instance.
         """
         return reverse('specifikacija-detail', args=[str(self.id)])
-
-
-
-

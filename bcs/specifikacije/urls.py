@@ -4,7 +4,7 @@ from . import views
 
 
 urlpatterns = [
-    #url(r'^$', views.index, name='index'),
+    url(r'^$', views.index, name='index'),
     url(r'^prvi/$', TemplateView.as_view(template_name ='specifikacije/index.html')),
     url(r'^drugi/$', TemplateView.as_view(template_name ='specifikacije/vaja.html')),
     #url(r'^postavka/$', views.PostavkaListView.as_view(), name='postavka'),

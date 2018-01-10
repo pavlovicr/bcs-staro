@@ -17,7 +17,9 @@ def index(request):
     stej_predmet_specifikacije = PredmetSpecifikacije.objects.all().count()
 
 
-    return render(request,'specifikacije/index.html', context={'stej_postavke':stej_postavke,'stej_specifikacije':stej_specifikacije,'stej_dela':stej_dela,'stej_predmet_specifikacije':stej_predmet_specifikacije},
+    return render(request,'specifikacije/index.html',
+     context={'stej_postavke':stej_postavke,'stej_specifikacije':stej_specifikacije,
+     'stej_dela':stej_dela,'stej_predmet_specifikacije':stej_predmet_specifikacije},
         )
 
 #class PostavkaListView(generic.ListView):

@@ -3,7 +3,7 @@ BCS
 ***
 
 
-Standardizirani popisi del(Building Construction Specifications - Tehnične specifikacije del za gradnje )
+Sssstandardizirani popisi del(Building Construction Specifications - Tehnične specifikacije del za gradnje )
 ##################################################################################################################
 
 Uvod
@@ -312,10 +312,3 @@ specifikacije/postavke/<id>  - detail
     catalog/authors/ — The list of all authors.
     catalog/book/<id> — The detail view for the specific book with a field primary key of <id> (the default). So for example, /catalog/book/3, for the third book added.
     catalog/author/<id> — The detail view for the specific author with a primary key field named <id>. So for example, /catalog/author/11, for the 11th author added.
-
-
-
-
-
-
-
