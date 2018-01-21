@@ -1,0 +1,19 @@
+{% extends "base.html" %}
+
+{% block content %}
+    <h1>Predmet specifikacije Seznam</h1>
+
+    {% if predmetspecifikacije_list %}
+    <ul>
+
+      {% for predmetspecifikacije in predmetspecifikacije_list %}
+      <li>
+        <a href="{{ predmetspecifikacije.get_absolute_url }}">{{ predmetspecifikacije.koda }}</a> ({{predmetspecifikacije.opis}})
+      </li>
+      {% endfor %}
+
+    </ul>
+    {% else %}
+      <p>Tukaj nič novega.</p>
+    {% endif %}
+{% endblock %}

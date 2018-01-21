@@ -6,7 +6,7 @@
 <h1>POPISI</h1>
 
 {% load static %}
-<img src="{% static 'images/fantje5.jpg' %}" alt="Slika" style="width:730px;height:400px;"/>
+<img src="{% static 'images/fantje5.jpg' %}" alt="Slika" style="width:730px;height:300px;"/>
 
   <p><em> " Delaj to, v kar verjameš, in verjemi v to, kar počneš. Vse drugo je tratenje energije in časa". (Nisargadatta) </em></p>
 
@@ -14,13 +14,14 @@
 
   <p>Statistika, obdelani elementi : </p>
   <ul>
-    <li><strong>Postavke:</strong> {{ stej_postavke }}</li>
-    <li><strong>Specifikacije :</strong> {{ stej_specifikacije }}</li>
-    <li><strong>Predmet specifikacije:</strong> {{ stej_predmet_specifikacije }}</li>
-    <li><strong>Dela:</strong> {{ stej_dela }}</li>
+    <li><strong><a href="{% url 'ratata' %}"> Postavke: </a></strong> {{ stej_postavke }}</li>
+    <li><strong><a href="{% url 'horuk' %}"> Specifikacije: </a></strong> {{ stej_specifikacije }}</li>
+    <li><strong><a href="{% url 'hojladri' %}"> Kriterij specifikacije: </a></strong> {{ stej_kriterij_specifikacije }}</li>
+    <li><strong><a href="/specifikacije/kriterijspecifikacij/"> Kriterij specifikacije: </a></strong> {{ stej_dela }}</li>
+    <li><strong><a href="{% url 'rompompom' %}"> Dela: </a></strong> {{ stej_dela }}</li>
+    <li><strong><a href="/specifikacije/dela/"> Dela: </a></strong> {{ stej_dela }}</li>
+
+
   </ul>
-
-
-
 
 {% endblock %}

@@ -1,0 +1,10 @@
+{% extends "base.html" %}
+
+{% block content %}
+  <h1>Predmet specifikacije: {{ predmetspecifikacije.opis }}</h1>
+  <h1>Specifikacije, ki pripadajo temu predmetu:{{predmetspecifikacije.postavka.all}}
+  <h2>Postavke:{% for a in predmetspecifikacije.postavka.all %} {{a.opis}} {% endfor %}</h2>
+
+
+
+{% endblock %}

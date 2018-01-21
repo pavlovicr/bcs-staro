@@ -1,0 +1,17 @@
+{% extends "base.html" %}
+
+{% block content %}
+
+<p><strong><a href="{% url 'rompompom' %}"> dela list </a></strong></p>
+
+
+ <h1>Koda: {{ dela.koda }}</h1>
+
+<p><strong>Opis:</strong>{{ dela.opis }}</p>
+<p><strong>ID:</strong> {{ dela.id }}</p>
+<p><strong>ID:</strong> {{ dela.stevilka }}</p>
+<p><strong>ID:</strong> {{ dela.koda }}</p>
+
+<p><strong>Postavke:</strong><a href="">{% for postavka in dela.postavka_set.all %} {{ postavka.opis}},{{postavka.enota_mere}} {% endfor %}</a></p>
+
+{% endblock %}

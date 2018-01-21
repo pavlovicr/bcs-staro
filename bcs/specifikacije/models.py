@@ -1,5 +1,6 @@
 from django.db import models
 from osnova.models import Osnova
+from django.urls import reverse
 
 
 class Dela(Osnova):
@@ -7,9 +8,7 @@ class Dela(Osnova):
         return self.opis
 
     def get_absolute_url(self):
-#       """
-#        Vrne url za Dela.
-#        """
+        # usmeri na URL z name = dela-detail
         return reverse('dela-detail', args=[str(self.id)])
 
 
@@ -22,34 +21,29 @@ class Postavka(Osnova):
         return self.opis
 
     def get_absolute_url(self):
-        """
-        Vrne url za Postavka.
-        """
+        # usmeri na URL z name = postavka-detail
         return reverse('postavka-detail', args=[str(self.id)])
 
 
-class PredmetSpecifikacije(Osnova):
+
+class KriterijSpecifikacije(Osnova):
     postavka = models.ManyToManyField(Postavka)
 
     def __str__(self):
         return self.opis
 
     def get_absolute_url(self):
-        """
-        Vrne url za Predmet specifikacije.
-        """
-        return reverse('predmet-detail', args=[str(self.id)])
+        # usmeri na URL z name = predmet-detail
+        return reverse('kriterij-detail', args=[str(self.id)])
 
 
 
 class Specifikacija(Osnova):
-    predmet = models.ForeignKey('PredmetSpecifikacije', on_delete=models.SET_NULL, null=True)
+    kriterij = models.ForeignKey('KriterijSpecifikacije', on_delete=models.SET_NULL, null=True)
 
     def __str__(self):
         return self.opis
 
     def get_absolute_url(self):
-        """
-        Returns the url to access a particular book instance.
-        """
+        # usmeri na URL z name = specifikacija-detail
         return reverse('specifikacija-detail', args=[str(self.id)])

@@ -8,7 +8,7 @@
 
       {% for postavka in postavka_list %}
       <li>
-        <a href="{{ postavka.get_absolute_url }}">{{ postavka.koda }}</a> ({{postavka.vsebina}})
+        <a href="{{ postavka.get_absolute_url }}">{{ postavka.koda }}</a> ({{postavka.opis}})
       </li>
       {% endfor %}
 
