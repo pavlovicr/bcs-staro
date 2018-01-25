@@ -3,10 +3,10 @@
 {% block content %}
     <h1>Dela Seznam</h1>
 
-    {% if dela_list %}
+    {% if object_list %}
     <ul>
 
-      {% for dela in dela_list %}
+      {% for dela in object_list %}
       <li>
         <a href="{{ dela.get_absolute_url }}">{{ dela.koda }}</a> ({{dela.opis}},{{dela.opis|length}})
       </li>

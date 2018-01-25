@@ -8,9 +8,7 @@ class Dela(Osnova):
         return self.opis
 
     def get_absolute_url(self):
-        # usmeri na URL z name = dela-detail
         return reverse('dela-detail', args=[str(self.id)])
-
 
 
 class Postavka(Osnova):
@@ -21,9 +19,7 @@ class Postavka(Osnova):
         return self.opis
 
     def get_absolute_url(self):
-        # usmeri na URL z name = postavka-detail
         return reverse('postavka-detail', args=[str(self.id)])
-
 
 
 class KriterijSpecifikacije(Osnova):
@@ -33,9 +29,7 @@ class KriterijSpecifikacije(Osnova):
         return self.opis
 
     def get_absolute_url(self):
-        # usmeri na URL z name = predmet-detail
         return reverse('kriterij-detail', args=[str(self.id)])
-
 
 
 class Specifikacija(Osnova):
@@ -45,5 +39,23 @@ class Specifikacija(Osnova):
         return self.opis
 
     def get_absolute_url(self):
-        # usmeri na URL z name = specifikacija-detail
         return reverse('specifikacija-detail', args=[str(self.id)])
+
+
+class SkupinaPogoja(Osnova):
+
+    def __str__(self):
+        return self.opis
+
+    def get_absolute_url(self):
+        return reverse('skupina_pogoja-detail', args=[str(self.id)])
+
+
+class Pogoj(Osnova):
+    skupina = models.ForeignKey('SkupinaPogoja', on_delete=models.SET_NULL, null=True)
+
+    def __str__(self):
+        return self.opis
+
+    def get_absolute_url(self):
+        return reverse('pogoj-detail', args=[str(self.id)])

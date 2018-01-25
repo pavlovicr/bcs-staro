@@ -1,7 +1,8 @@
 from django.shortcuts import render
 from django.views import generic
 from django.views.generic import DetailView
-
+from django.views.generic import ListView
+from django.shortcuts import get_object_or_404
 #class Karkoli(TemplateView):
 #    template_name = "index.html"
 
@@ -21,19 +22,34 @@ def index(request):
      'stej_dela':stej_dela,'stej_kriterij_specifikacije':stej_kriterij_specifikacije},
         )
 
-class PostavkaListView(generic.ListView):
+
+class PostavkaList(ListView):
     model = Postavka
-class PostavkaDetailView(generic.DetailView):
+
+
+class PostavkaDetail(DetailView):
     model = Postavka
-class DelaListView(generic.ListView):
+
+
+class DelaList(ListView):
     model = Dela
-class DelaDetailView(generic.DetailView):
+
+
+class DelaDetail(DetailView):
     model = Dela
-class SpecifikacijaListView(generic.ListView):
+
+
+class SpecifikacijaList(ListView):
     model = Specifikacija
-class SpecifikacijaDetailView(generic.DetailView):
+
+
+class SpecifikacijaDetail(DetailView):
     model = Specifikacija
-class KriterijspecifikacijeListView(generic.ListView):
+
+
+class KriterijSpecifikacijeList(ListView):
     model = KriterijSpecifikacije
-class KriterijspecifikacijeDetailView(generic.DetailView):
+
+
+class KriterijSpecifikacijeDetail(DetailView):
     model = KriterijSpecifikacije

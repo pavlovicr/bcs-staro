@@ -5,17 +5,13 @@ from . import views
 
 urlpatterns = [
     url(r'^$', views.index, name='index'),
-    url(r'^prvi/$', TemplateView.as_view(template_name ='specifikacije/index.html')),
-
-    url(r'^postavke/$', views.PostavkaListView.as_view(), name='ratata'),
-    url(r'^postavka/(?P<pk>\d+)$', views.PostavkaDetailView.as_view(), name='postavka-detail'),
-    url(r'^dela/$', views.DelaListView.as_view(), name='rompompom'),
-    url(r'^dela/(?P<pk>\d+)$', views.DelaDetailView.as_view(), name='dela-detail'),
-    url(r'^specifikacije/$', views.SpecifikacijaListView.as_view(), name='horuk'),
-    url(r'^specifikacija/(?P<pk>\d+)$', views.SpecifikacijaDetailView.as_view(), name='specifikacija-detail'),
-    url(r'^kriterijspecifikacij/$', views.KriterijspecifikacijeListView.as_view(), name='hojladri'),
-    url(r'^kriterijspecifikacije/(?P<pk>\d+)$', views.KriterijspecifikacijeDetailView.as_view(), name='kriterij-detail'),
-
-
+    url(r'^postavke/$', views.PostavkaList.as_view(), name='postavka-list'),
+    url(r'^postavka/(?P<pk>\d+)$', views.PostavkaDetail.as_view(), name='postavka-detail'),
+    url(r'^dela/$', views.DelaList.as_view(), name='dela-list'),
+    url(r'^dela/(?P<pk>\d+)$', views.DelaDetail.as_view(), name='dela-detail'),
+    url(r'^specifikacije/$', views.SpecifikacijaList.as_view(), name='specifikacija-list'),
+    url(r'^specifikacija/(?P<pk>\d+)$', views.SpecifikacijaDetail.as_view(), name='specifikacija-detail'),
+    url(r'^kriterijspecifikacij/$', views.KriterijSpecifikacijeList.as_view(), name='kriterij_specifikacije-list'),
+    url(r'^kriterijspecifikacije/(?P<pk>\d+)$', views.KriterijSpecifikacijeDetail.as_view(), name='kriterij_specifikacije-detail'),
 
 ]
