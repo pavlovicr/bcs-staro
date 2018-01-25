@@ -1,0 +1,24 @@
+{% extends "base.html" %}
+
+{% block content %}
+
+  <p><strong><a href="{% url 'skupina_dolocila-list' %}"> Skupina Določila List </a></strong></p>
+
+  <h1>Koda: {{ skupinadolocila.koda }}</h1>
+
+  <p><strong>Opis:</strong>{{ skupinadolocila.opis }}</p>
+  <p><strong>ID:</strong> {{ skupinadolocila.id }}</p>
+  <p><strong>številka:</strong> {{ skupinadolocila.stevilka }}</p>
+  <p><strong>KODA:</strong> {{ skupinadolocila.koda }}</p>
+
+
+  {% for dolocilo in skupinadolocila.dolocilo_set.all %}
+  <li>
+<!-- <a href="{{ postavka.get_absolute_url }}">{{ postavka.opis}}</a>  tudi to deluje-->
+    <a href="{% url 'dolocilo-detail' dolocilo.pk %}">{{ dolocilo.opis}}</a>
+
+  </li>
+  {% endfor %}
+
+
+{% endblock %}

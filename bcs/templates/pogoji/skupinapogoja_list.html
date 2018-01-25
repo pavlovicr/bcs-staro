@@ -1,0 +1,19 @@
+{% extends "base.html" %}
+
+{% block content %}
+    <h1>Skupina Pogoja Seznam</h1>
+
+    {% if object_list %}
+    <ul>
+
+      {% for skupinapogoja in object_list %}
+      <li>
+        <a href="{{ skupinapogoja.get_absolute_url }}">{{ skupinapogoja.koda }}</a> {{skupinapogoja.opis}}
+      </li>
+      {% endfor %}
+
+    </ul>
+    {% else %}
+      <p>Tukaj nič novega.</p>
+    {% endif %}
+{% endblock %}

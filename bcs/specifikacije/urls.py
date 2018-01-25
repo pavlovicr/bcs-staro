@@ -13,8 +13,5 @@ urlpatterns = [
     url(r'^specifikacija/(?P<pk>\d+)$', views.SpecifikacijaDetail.as_view(), name='specifikacija-detail'),
     url(r'^kriterijspecifikacij/$', views.KriterijSpecifikacijeList.as_view(), name='kriterij_specifikacije-list'),
     url(r'^kriterijspecifikacije/(?P<pk>\d+)$', views.KriterijSpecifikacijeDetail.as_view(), name='kriterij_specifikacije-detail'),
-    url(r'^pogoji/$', views.PogojList.as_view(), name='pogoj-list'),
-    url(r'^pogoj/(?P<pk>\d+)$', views.PogojDetail.as_view(), name='pogoj-detail'),
-    url(r'^dolocila/$', views.DolocilaList.as_view(), name='dolocila-list'),
-    url(r'^dolocilo/(?P<pk>\d+)$', views.DolociloDetail.as_view(), name='dolocilo-detail'),
+    
 ]

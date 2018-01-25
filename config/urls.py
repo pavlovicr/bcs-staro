@@ -23,6 +23,7 @@ urlpatterns = [
     # Your stuff: custom urls includes go here
 
     url(r'^specifikacije/', include('specifikacije.urls')),
+    url(r'^pogoji/', include('pogoji.urls')),
 
 
 

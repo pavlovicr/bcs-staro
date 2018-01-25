@@ -1,0 +1,26 @@
+{% extends "base.html" %}
+
+{% block content %}
+
+  <p><strong><a href="{% url 'pogoj-list' %}"> pogoji list </a></strong></p>
+
+  <h1>Koda: {{ pogoj.koda }}</h1>
+
+  <p><strong>Opis:</strong>{{ pogoj.opis }}</p>
+  <p><strong>ID:</strong> {{ pogoj.id }}</p>
+  <p><strong>številka:</strong> {{ pogoj.stevilka }}</p>
+  <p><strong>koda:</strong> {{ pogoj.koda }}</p>
+
+
+  {% for pogoj in pogoj.skupinapogoja %}
+  <li>
+<!-- <a href="{{ postavka.get_absolute_url }}">{{ postavka.opis}}</a>  tudi to deluje-->
+    <a href="{% url 'skupina_pogoj-detail' postavka.pk %}">{{ postavka.opis}}</a>
+
+  </li>
+  {% endfor %}
+
+
+
+
+{% endblock %}
