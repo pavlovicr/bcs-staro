@@ -13,10 +13,4 @@ urlpatterns = [
     url(r'^skupina_dolocila/$', views.SkupinaDolocilaList.as_view(), name='skupina_dolocila-list'),
     url(r'^skupina_dolocilo/(?P<pk>\d+)$', views.DolociloDetail.as_view(), name='skupina_dolocilo-detail'),
 
-
-
-
-
-
-
 ]
