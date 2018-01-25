@@ -42,6 +42,24 @@ class Specifikacija(Osnova):
         return reverse('specifikacija-detail', args=[str(self.id)])
 
 
+class SkupinaDolocila(Osnova):
+
+    def __str__(self):
+        return self.opis
+
+    def get_absolute_url(self):
+        return reverse('skupina_dolocila-detail', args=[str(self.id)])
+
+
+class Dolocilo(Osnova):
+    skupina_dolocila = models.ForeignKey('SkupinaDolocila', on_delete=models.SET_NULL, null=True)
+
+    def __str__(self):
+        return self.opis
+
+    def get_absolute_url(self):
+        return reverse('pogoj-detail', args=[str(self.id)])
+
 class SkupinaPogoja(Osnova):
 
     def __str__(self):
@@ -52,7 +70,7 @@ class SkupinaPogoja(Osnova):
 
 
 class Pogoj(Osnova):
-    skupina = models.ForeignKey('SkupinaPogoja', on_delete=models.SET_NULL, null=True)
+    skupina_pogoja = models.ForeignKey('SkupinaPogoja', on_delete=models.SET_NULL, null=True)
 
     def __str__(self):
         return self.opis

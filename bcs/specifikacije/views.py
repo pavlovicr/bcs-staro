@@ -53,3 +53,35 @@ class KriterijSpecifikacijeList(ListView):
 
 class KriterijSpecifikacijeDetail(DetailView):
     model = KriterijSpecifikacije
+
+
+class PogojList(ListView):
+    model = Pogoj
+
+
+class PogojDetail(DetailView):
+    model = Pogoj
+
+
+class SkupinaPogojaList(ListView):
+    model = SkupinaPogoja
+
+
+class SkupinaPogojaDetail(DetailView):
+    model = SkupinaPogoja
+
+
+
+
+
+
+
+
+
+
+class DolociloList(ListView):
+    model = Dolocilo
+
+
+class DolociloDetail(DetailView):
+    model = Dolocilo
