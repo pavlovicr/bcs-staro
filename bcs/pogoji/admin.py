@@ -1,5 +1,5 @@
 from django.contrib import admin
-from specifikacije.models import Pogoj,Dolocilo,SkupinaPogoja,SkupinaDolocila
+from pogoji.models import Pogoj,Dolocilo,SkupinaPogoja,SkupinaDolocila
 
 
 
