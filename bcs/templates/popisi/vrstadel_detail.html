@@ -2,14 +2,11 @@
 
 {% block content %}
 
-  <p><strong><a href="{% url 'pogoj-list' %}"> pogoji list </a></strong></p>
+  <p><strong><a href="{% url 'vrsta_del-list' %}"> Vrsta Del list </a></strong></p>
 
-  <h1>Koda: {{ pogoj.koda }}</h1>
+  <h1>Opis: {{ object.opis }}</h1>
 
-  <p><strong>Opis:</strong>{{ pogoj.opis }}</p>
-  <p><strong>ID:</strong> {{ pogoj.id }}</p>
-  <p><strong>številka:</strong> {{ pogoj.stevilka }}</p>
-  <p><strong>koda:</strong> {{ pogoj.koda }}</p>
+  <p><strong>Opis:</strong>{{ object.opis }}</p>
 
 
   {% for pogoj in pogoj.skupinapogoja %}

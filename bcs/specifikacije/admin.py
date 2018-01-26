@@ -1,9 +1,8 @@
 from django.contrib import admin
-from specifikacije.models import Dela,Postavka,Specifikacija,KriterijSpecifikacije
+from specifikacije.models import Specifikacija,PodrocjeSpecifikacije,PosebnoDolocilo,SplosnoDolocilo,Dokumentacija
 
-
-
-admin.site.register(Dela)
-admin.site.register(Postavka)
 admin.site.register(Specifikacija)
-admin.site.register(KriterijSpecifikacije)
+admin.site.register(PodrocjeSpecifikacije)
+admin.site.register(PosebnoDolocilo)
+admin.site.register(SplosnoDolocilo)
+admin.site.register(Dokumentacija)

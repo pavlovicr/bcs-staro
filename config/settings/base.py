@@ -57,7 +57,7 @@ LOCAL_APPS = [
     'bcs.users.apps.UsersConfig',
     'specifikacije',
     'osnova',
-    'pogoji',
+    'popisi',
     # Your stuff: custom apps go here
 ]
 

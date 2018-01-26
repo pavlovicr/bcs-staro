@@ -5,8 +5,14 @@
 
 <h1>Postavka: {{ postavka.dela }}</h1>
 
+
 <p><strong>Dela:</strong> <a href="{% url 'dela-detail' postavka.dela.pk %}">{{ postavka.dela }}</a></p>
 
 
+{% for specifikacija in postavka.specifikacija_set.all %}
+<li>
+  <a href="{{ specifikacija.get_absolute_url }}">{{ specifikacija.koda }}</a> {{specifikacija.opis}}
+</li>
+{% endfor %}
 
 {% endblock %}

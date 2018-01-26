@@ -4,14 +4,15 @@ from . import views
 
 
 urlpatterns = [
-    url(r'^$', views.index, name='index'),
-    url(r'^postavke/$', views.PostavkaList.as_view(), name='postavka-list'),
-    url(r'^postavka/(?P<pk>\d+)$', views.PostavkaDetail.as_view(), name='postavka-detail'),
-    url(r'^dela/$', views.DelaList.as_view(), name='dela-list'),
-    url(r'^dela/(?P<pk>\d+)$', views.DelaDetail.as_view(), name='dela-detail'),
-    url(r'^specifikacije/$', views.SpecifikacijaList.as_view(), name='specifikacija-list'),
+    url(r'^specifikacije/$', views.SpecifikacijaList.as_view(), name='specifikacije-list'),
     url(r'^specifikacija/(?P<pk>\d+)$', views.SpecifikacijaDetail.as_view(), name='specifikacija-detail'),
-    url(r'^kriterijspecifikacij/$', views.KriterijSpecifikacijeList.as_view(), name='kriterij_specifikacije-list'),
-    url(r'^kriterijspecifikacije/(?P<pk>\d+)$', views.KriterijSpecifikacijeDetail.as_view(), name='kriterij_specifikacije-detail'),
-    
+    url(r'^podrocjaspecifikacij/$', views.PodrocjeSpecifikacijeList.as_view(), name='podrocjespecifikacije-list'),
+    url(r'^podrocje_specifikacije/(?P<pk>\d+)$', views.PodrocjeSpecifikacijeDetail.as_view(), name='podrocjespecifikacije-detail'),
+    url(r'^posebna_dolocila/$', views.PosebnoDolociloList.as_view(), name='posebnodolocilo-list'),
+    url(r'^posebno_dolocilo/(?P<pk>\d+)$', views.PosebnoDolociloDetail.as_view(), name='posebnodolocilo-detail'),
+    url(r'^splosna_dolocila/$', views.SplosnoDolociloList.as_view(), name='splosnodolocilo-list'),
+    url(r'^splosno_dolocilo/(?P<pk>\d+)$', views.SplosnoDolociloDetail.as_view(), name='splosnodolocilo-detail'),
+    url(r'^dokumentacija/$', views.DokumentacijaList.as_view(), name='dokumentacija-list'),
+    url(r'^dokument/(?P<pk>\d+)$', views.DokumentacijaDetail.as_view(), name='dokumentacija-detail'),
+
 ]
