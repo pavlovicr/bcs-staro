@@ -4,7 +4,7 @@ from . import views
 
 
 urlpatterns = [
-    url(r'^specifikacije/$', views.SpecifikacijaList.as_view(), name='specifikacije-list'),
+    url(r'^specifikacije/$', views.SpecifikacijaList.as_view(), name='specifikacija-list'),
     url(r'^specifikacija/(?P<pk>\d+)$', views.SpecifikacijaDetail.as_view(), name='specifikacija-detail'),
     url(r'^podrocjaspecifikacij/$', views.PodrocjeSpecifikacijeList.as_view(), name='podrocjespecifikacije-list'),
     url(r'^podrocje_specifikacije/(?P<pk>\d+)$', views.PodrocjeSpecifikacijeDetail.as_view(), name='podrocjespecifikacije-detail'),

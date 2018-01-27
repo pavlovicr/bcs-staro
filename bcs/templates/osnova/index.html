@@ -14,12 +14,10 @@
 
   <p>Statistika, obdelani elementi : </p>
   <ul>
-    <li><strong><a href="{% url 'postavka-list' %}"> Postavke: </a></strong> {{ stej_postavke }}</li>
-    <li><strong><a href="{% url 'specifikacija-list' %}"> Specifikacije: </a></strong> {{ stej_specifikacije }}</li>
-    <li><strong><a href="{% url 'kriterij_specifikacije-list' %}"> Kriterij specifikacije: </a></strong> {{ stej_kriterij_specifikacije }}</li>
-    <li><strong><a href="/specifikacije/kriterijspecifikacij/"> Kriterij specifikacije: </a></strong> {{ stej_dela }}</li>
-    <li><strong><a href="{% url 'dela-list' %}"> Dela: </a></strong> {{ stej_dela }}</li>
-    <li><strong><a href="/specifikacije/dela/"> Dela: </a></strong> {{ stej_dela }}</li>
+    <li><strong><a href="popisi/{% url 'postavka-list' %}"> Postavke: </a></strong> {{ stej_postavke }}</li>
+    <li><strong><a href="specifikacije/{% url 'specifikacija-list' %}"> Specifikacije: </a></strong> {{ stej_specifikacije }}</li>
+    <li><strong><a href="specifikacije/{% url 'podrocjespecifikacije-list' %}"> Podrocje Specifikacije: </a></strong> {{ stej_podrocjespecifikacije }}</li>
+    <li><strong><a href="/popisi/dela/"> Dela: </a></strong> {{ stej_dela }}</li>
 
 
   </ul>

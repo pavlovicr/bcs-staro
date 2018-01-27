@@ -24,6 +24,7 @@ urlpatterns = [
 
     url(r'^specifikacije/', include('specifikacije.urls')),
     url(r'^popisi/', include('popisi.urls')),
+    url(r'^osnova/', include('osnova.urls')),
 
 
 
