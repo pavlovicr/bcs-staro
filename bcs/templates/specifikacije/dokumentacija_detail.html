@@ -1,26 +1,50 @@
+<style>
+.vaja {
+    background-color: yellow;
+    color: green;
+    padding: 10px;
+}
+</style>
+
+
+
 {% extends "base.html" %}
 
 {% block content %}
 
-  <p><strong><a href="{% url 'dolocilo-list' %}"> dolocila list </a></strong></p>
+  <p><strong><a href="{% url 'dokumentacija-list' %}"> dolocila list </a></strong></p>
 
-  <h1>Koda: {{ dolocilo.koda }}</h1>
+  <h1>Dokumentacija: {{ object.opis }}</h1>
 
-  <p><strong>Opis:</strong>{{ dolocilo.opis }}</p>
-  <p><strong>ID:</strong> {{ dolocilo.id }}</p>
-  <p><strong>ID:</strong> {{ dolocilo.stevilka }}</p>
-  <p><strong>ID:</strong> {{ dolocilo.koda }}</p>
+  <p><strong>Opis:</strong>{{ object.opis }}</p>
+  <p><strong>ID:</strong> {{ object.id }}</p>
+  <p><strong>Vrsta dokumenta:</strong> {{ object.vrsta_dokumenta }}</p>
 
 
-  {% for skupinadolocila in postavka.skupinadolocila %}
+  {% for klasifikacijaspecifikacije in dokumentacija.klasifikacijaspecifikacije_set.all %}
+<div class = "vaja">
   <li>
-<!-- <a href="{{ postavka.get_absolute_url }}">{{ postavka.opis}}</a>  tudi to deluje-->
-    <a href="{% url 'skupina_dolocilo-detail' skupinadolocila.pk %}">{{ skupinadolocila.opis}}</a>
+    <a href="{{ klasifikacijaspecifikacije.get_absolute_url }}">{{ klasifikacijaspecifikacije.opis}},</a>{{klasifikacijaspecifikacije.podrocje}},{{klasifikacijaspecifikacije.vrsta}},{{klasifikacijaspecifikacije.osnova}})
+<!-- <a href="{% url 'klasifikacijaspecifikacije-detail' klasifikacijaspecifikacije.pk %}">{{ klasifikacijaspecifikacije.opis}}</a> tudi to deluje-->
+<ul style="list-style-type:square">
+  {% for specifikacija in klasifikacijaspecifikacije.specifikacija_set.all %}
+    <li>
+      <a href="{{ specifikacija.get_absolute_url }}">{{ specifikacija.opis}}</a>
+      {% for postavka in specifikacija.postavka.all %}
+      <ul>
+        <li>
+          <a href="{{ postavka.get_absolute_url }}">{{ postavka.opis}}</a>
 
-  </li>
+        </li>
+      </ul>
+      {% endfor %}
+    </li>
+</ul>
   {% endfor %}
 
+  </li>
+</div>
 
-
+  {% endfor %}
 
 {% endblock %}

@@ -1,16 +1,20 @@
 from django.db import models
-from osnova.models import Osnova
 from django.urls import reverse
 
+#bcs
+from osnova.utils import ChoiceEnum
+from osnova.models import Osnova
 
 class VrstaDel(Osnova):
-    GR='GR'
-    OB='OB'
-    skupina_del = (
-    (GR, "Gradbena dela"),
-    (OB, "Obrtniška dela"),
-    )
-    skupina_del = models.CharField(choices = skupina_del, max_length=10, default=GR)
+
+    class SkupinaDel(ChoiceEnum):
+        GRADBENA = 'Gradbena dela'
+        OBRTNISKA = 'Obrtniška dela'
+        STROJNE = 'Strojne instalacije'
+        ELEKTRO = 'Električne instalacije'
+        ZUNANJA = 'Zunanja ureditev'
+
+    skupina_del = models.CharField(max_length=10, choices=SkupinaDel.choices(), default=SkupinaDel.GRADBENA)
 
     def __str__(self):
         return self.opis

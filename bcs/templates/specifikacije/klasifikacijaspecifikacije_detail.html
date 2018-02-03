@@ -1,0 +1,10 @@
+{% extends "base.html" %}
+
+{% block content %}
+  <h1>Klasifikacija specifikacije: {{ klasifikacijaspecifikacije.opis }}</h1>
+  <h1>Specifikacije, ki pripadajo temu kriteriju:{{klasifikacijaspecifikacije.postavka.all}}
+  <h2>Postavke:{% for a in klasifikacijaspecifikacije.postavka.all %} {{a.opis}} {% endfor %}</h2>
+
+
+
+{% endblock %}

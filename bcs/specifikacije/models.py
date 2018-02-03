@@ -1,19 +1,24 @@
 from django.db import models
-from osnova.models import Osnova
 from django.urls import reverse
+#BCS
+from osnova.utils import ChoiceEnum
+from osnova.models import Osnova
 from popisi.models import Dela,VrstaDel,Postavka
 
 
 class Dokumentacija(Osnova):
-    ST='ST'
-    SM='SM'
-    SL='SL'
-    vrsta_dokumenta = (
-    (ST, "Standard"),
-    (SM, "Smernice"),
-    (SL, "Strokovna literatura"),
-    )
-    vrsta_dokumenta = models.CharField(choices= vrsta_dokumenta,max_length=10, default=ST)
+
+    class Zvrst(ChoiceEnum):
+        STANDARD = ('Standard')
+        PRAVILNIK = ('Pravilnik')
+        ZNANOST = ('Znanostvena knjiga')
+        PRAKSA = ('Gradbena praksa')
+        SMERNICE = ('Smernice')
+        PRIPOROCILA = ('Priporocila')
+
+    vrsta_dokumenta = models.CharField(max_length=10, choices=Zvrst.choices(), default=Zvrst.STANDARD)
+    komentar = models.TextField()
+    dokument = models.CharField(max_length=100)
 
     def __str__(self):
         return self.opis
@@ -22,8 +27,16 @@ class Dokumentacija(Osnova):
         return reverse('dokumentacija-detail', args=[str(self.id)])
 
 
-class PodrocjeSpecifikacije(Osnova):
-    LM='LM'
+class KlasifikacijaSpecifikacije(Osnova):
+
+    class Osnova(ChoiceEnum):
+        ZAKON = ('Zahteve zakonov')
+        STROKA = ('Pravila stroke')
+        PRAKSA = ('Gradbena praksa')
+        SMERNICE = ('Strokovne smernice')
+        PRIPOROCILA = ('Priporocila združenj')
+
+    LM='Lastnosti materialov'
     PD='PD'
     LI='LI'
     PI='PI'
@@ -36,9 +49,9 @@ class PodrocjeSpecifikacije(Osnova):
     (VZ,"Varnostne zahteve"),
     )
 
-    Z='Z'
-    P='P'
-    S='S'
+    Z='Zakonodaja'
+    P='Pravila stroke'
+    S='Smernice'
     osnova = (
     (Z, "Zakonodaja"),
     (P, "Pravila stroke"),
@@ -54,11 +67,11 @@ class PodrocjeSpecifikacije(Osnova):
         return self.opis
 
     def get_absolute_url(self):
-        return reverse('podrocjespecifikacije-detail', args=[str(self.id)])
+        return reverse('klasifikacijaspecifikacije-detail', args=[str(self.id)])
 
 
 class Specifikacija(Osnova):
-    podrocje_specifikacije = models.ForeignKey('PodrocjeSpecifikacije', on_delete=models.SET_NULL, null=True)
+    klasifikacija_specifikacije = models.ForeignKey('KlasifikacijaSpecifikacije', on_delete=models.SET_NULL, null=True)
     postavka = models.ManyToManyField(Postavka)
 
     def __str__(self):

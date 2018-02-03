@@ -4,7 +4,7 @@ from django.views.generic import DetailView
 from django.views.generic import ListView
 from django.shortcuts import get_object_or_404
 
-from specifikacije.models import Specifikacija,PodrocjeSpecifikacije,PosebnoDolocilo,SplosnoDolocilo,Dokumentacija
+from specifikacije.models import Specifikacija,KlasifikacijaSpecifikacije,PosebnoDolocilo,SplosnoDolocilo,Dokumentacija
 
 
 class SpecifikacijaList(ListView):
@@ -15,12 +15,12 @@ class SpecifikacijaDetail(DetailView):
     model = Specifikacija
 
 
-class PodrocjeSpecifikacijeList(ListView):
-    model = PodrocjeSpecifikacije
+class KlasifikacijaSpecifikacijeList(ListView):
+    model = KlasifikacijaSpecifikacije
 
 
-class PodrocjeSpecifikacijeDetail(DetailView):
-    model = PodrocjeSpecifikacije
+class KlasifikacijaSpecifikacijeDetail(DetailView):
+    model = KlasifikacijaSpecifikacije
 
 
 class PosebnoDolociloList(ListView):

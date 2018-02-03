@@ -2,14 +2,13 @@
 
 {% block content %}
     <h1>Specifikacije Seznam</h1>
-    <h1>{{ page_title }}</h1>
 
     {% if object_list %}
     <ul>
 
       {% for specifikacija in object_list %}
       <li>
-        <a href="{{ specifikacija.get_absolute_url }}">{{ specifikacija.koda }}</a> ({{specifikacija.opis}})
+        <a href="{{ specifikacija.get_absolute_url }}">{{ specifikacija.opis }}</a> 
       </li>
       {% endfor %}
 

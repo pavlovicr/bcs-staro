@@ -2,25 +2,24 @@
 
 {% block content %}
 
-  <p><strong><a href="{% url 'dela-list' %}"> dela list </a></strong></p>
+  <p><strong><a href="{% url 'dela-list' %}"> Dela list </a></strong></p>
 
-  <h1>Koda: {{ dela.koda }}</h1>
+  <h1>Dela: {{ object.opis }}</h1>
 
-  <p><strong>Opis:</strong>{{ dela.opis }}</p>
-  <p><strong>ID:</strong> {{ dela.id }}</p>
-  <p><strong>ID:</strong> {{ dela.stevilka }}</p>
-  <p><strong>ID:</strong> {{ dela.koda }}</p>
+  <p><strong>ID:</strong>{{ object.id }}</p>
+  <p><strong>OPIS:</strong> {{ dela.opis }}</p>
+  <p><strong>ID:</strong> {{ dela.vrsta_del }}</p>
 
+
+  <h2> Seznam postavk </h2>
 
   {% for postavka in dela.postavka_set.all %}
+
   <li>
-<!-- <a href="{{ postavka.get_absolute_url }}">{{ postavka.opis}}</a>  tudi to deluje-->
-    <a href="{% url 'postavka-detail' postavka.pk %}">{{ postavka.opis}}</a>
-
+  <!-- <a href="{{ postavka.get_absolute_url }}">{{ postavka.opis}}</a>  tudi to deluje-->
+      <a href="{% url 'postavka-detail' postavka.pk %}">{{ postavka.opis}}</a>
   </li>
+
   {% endfor %}
-
-
-
 
 {% endblock %}

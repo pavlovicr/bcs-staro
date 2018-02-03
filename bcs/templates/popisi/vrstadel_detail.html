@@ -2,22 +2,21 @@
 
 {% block content %}
 
-  <p><strong><a href="{% url 'vrsta_del-list' %}"> Vrsta Del list </a></strong></p>
+  <p><strong><a href="{% url 'vrstadel-list' %}"> Vrsta Del List </a></strong></p>
 
   <h1>Opis: {{ object.opis }}</h1>
 
   <p><strong>Opis:</strong>{{ object.opis }}</p>
+  <p><strong>Skupina del:</strong>{{ object.skupina_del }}</p>
 
 
-  {% for pogoj in pogoj.skupinapogoja %}
+  {% for dela in object.dela_set.all %}
   <li>
 <!-- <a href="{{ postavka.get_absolute_url }}">{{ postavka.opis}}</a>  tudi to deluje-->
-    <a href="{% url 'skupina_pogoj-detail' postavka.pk %}">{{ postavka.opis}}</a>
+    <a href="{% url 'dela-detail' dela.pk %}">{{ dela.opis}}</a>
 
   </li>
   {% endfor %}
-
-
 
 
 {% endblock %}

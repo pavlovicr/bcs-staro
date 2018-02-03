@@ -2,4 +2,25 @@
 
 {% block content %}
   <h1>Specifikacije: {{ specifikacija.opis }}</h1>
+
+  <h2> Seznam postavk, ki jim pripada specifikacija </h2>
+
+
+
+  {% for postavka in specifikacija.postavka.all %}
+
+  <li>
+  <!-- <a href="{{ postavka.get_absolute_url }}">{{ postavka.opis}}</a>  tudi to deluje-->
+      <a href="{% url 'postavka-detail' postavka.pk %}">{{ postavka.opis}}</a>
+  </li>
+
+  {% endfor %}
+
+
+
+
+
+
+
+
 {% endblock %}

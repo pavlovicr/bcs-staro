@@ -3,7 +3,7 @@
 {% block content %}
   <h1>Postavka: {{ postavka.opis }}</h1>
 
-<h1>Postavka: {{ postavka.dela }}</h1>
+<h1>Dela: {{ postavka.dela }}</h1>
 
 
 <p><strong>Dela:</strong> <a href="{% url 'dela-detail' postavka.dela.pk %}">{{ postavka.dela }}</a></p>

@@ -14,11 +14,14 @@
 
   <p>Statistika, obdelani elementi : </p>
   <ul>
-    <li><strong><a href="popisi/{% url 'postavka-list' %}"> Postavke: </a></strong> {{ stej_postavke }}</li>
-    <li><strong><a href="specifikacije/{% url 'specifikacija-list' %}"> Specifikacije: </a></strong> {{ stej_specifikacije }}</li>
-    <li><strong><a href="specifikacije/{% url 'podrocjespecifikacije-list' %}"> Podrocje Specifikacije: </a></strong> {{ stej_podrocjespecifikacije }}</li>
+    <li><strong><a href="{% url 'postavka-list' %}"> Postavke: </a></strong> {{ stej_postavke }}</li>
+    <li><strong><a href="{% url 'specifikacija-list' %}"> Specifikacije: </a></strong> {{ stej_specifikacije }}</li>
+  <!--  <li><strong><a href="{% url 'klasifikacijaspecifikacije-list' %}"> Klasifikacija Specifikacije: </a></strong> {{ stej_klasifikacijaspecifikacije }}</li>-->
     <li><strong><a href="/popisi/dela/"> Dela: </a></strong> {{ stej_dela }}</li>
-
+<li><strong><a href="/popisi/vrsta_del/"> Vrsta Del: </a></strong> {{ stej_vrstadel }}</li>
+<li><strong><a href="/specifikacije/dokumentacija/"> Dokumentacija: </a></strong> {{ stej_dokumentacija }}</li>
+<li><strong><a href="/popisi/dela/"> Dela: </a></strong> {{ stej_dela }}</li>
+<li><strong><a href="/popisi/dela/"> Dela: </a></strong> {{ stej_dela }}</li>
 
   </ul>
 

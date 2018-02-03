@@ -1,14 +1,14 @@
 {% extends "base.html" %}
 
 {% block content %}
-    <h1>Določila Seznam</h1>
+    <h1>Dokumentacija Seznam</h1>
 
     {% if object_list %}
     <ul>
 
-      {% for dolocila in object_list %}
+      {% for dokumentacija in object_list %}
       <li>
-        <a href="{{ dolocila.get_absolute_url }}">{{ dolocila.koda }}</a> {{dolocila.opis}}
+        <a href="{{ dokumentacija.get_absolute_url }}">{{ dokumentacija.opis }}</a> {{dokumentacija.id}}
       </li>
       {% endfor %}
 

@@ -1,14 +1,14 @@
 {% extends "base.html" %}
 
 {% block content %}
-    <h1>Pogoji Seznam</h1>
+    <h1>Vrsta del Seznam</h1>
 
     {% if object_list %}
     <ul>
 
-      {% for pogoj in object_list %}
+      {% for vrsta_del in object_list %}
       <li>
-        <a href="{{ pogoj.get_absolute_url }}">{{ pogoj.koda }}</a> {{pogoj.opis}}
+        <a href="{{ vrsta_del.get_absolute_url }}">{{ vrsta_del.opis }}</a> {{vrsta_del.id}}
       </li>
       {% endfor %}
 

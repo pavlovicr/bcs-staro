@@ -38,6 +38,7 @@ DJANGO_APPS = [
     'django.contrib.messages',
     'django.contrib.staticfiles',
 
+
     # Useful template tags:
     # 'django.contrib.humanize',
 
